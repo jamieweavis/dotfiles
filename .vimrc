@@ -1,0 +1,22 @@
+syntax on           " Enable syntax highlighting
+
+set number          " Show line numbers
+set nowrap          " Don't wrap lines
+set scrolloff=5     " Keep 5 lines above/below when vertical scrolling
+set sidescrolloff=5 " Keep 5 cols left/right when horizontal scolling
+
+set showmatch       " Highlight matching braces
+set hlsearch        " Highlight search matches
+set incsearch       " Search as characters are entered
+set ignorecase      " Ignore case of search
+
+set wildmenu        " Visual tab autocomplete for : command menu
+set ruler           " Show caret coordinates on status bar
+
+set smarttab        " Soft smart tabs, 2 spaces
+set smartindent
+set tabstop=2
+set shiftwidth=2
+set softtabstop=2
+set expandtab
+

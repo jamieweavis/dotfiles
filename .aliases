@@ -1,0 +1,35 @@
+# Navigation
+alias ..="cd .."
+alias ...="cd ../.."
+alias ....="cd ../../.."
+alias .....="cd ../../../.."
+alias ......="cd ../../../../.."
+
+# Shortcuts
+alias dl="cd ~/Downloads"
+alias dt="cd ~/Desktop"
+alias p="cd ~/Projects"
+alias c="clear"
+
+# File Shortcuts
+alias aliases="vim ~/.aliases"
+alias hosts="sudo vim /private/etc/hosts"
+alias vhosts="vim ~/Sites/apache/httpd-vhosts.conf"
+alias phptail="tail -fn25 /var/log/php.log"
+
+# List
+alias l="ls -lah"
+alias ll="ls -lh"
+alias la="ls -lAh"
+
+# Coloured grep
+alias grep="grep --color=auto"
+alias fgrep="fgrep --color=auto"
+alias egrep="egrep --color=auto"
+
+# Git
+alias glog="git log --graph --abbrev-commit --decorate --format=format:'%C(bold blue)%h%C(reset) - %C(bold green)(%ar)%C(reset) %C(white)%s%C(reset) %C(dim white)- %an%C(reset)%C(bold yellow)%d%C(reset)' --all"
+
+# Show/hide hidden files in Finder
+alias show="defaults write com.apple.finder AppleShowAllFiles -bool true && killall Finder"
+alias hide="defaults write com.apple.finder AppleShowAllFiles -bool false && killall Finder"

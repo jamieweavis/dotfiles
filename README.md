@@ -1,3 +1,3 @@
 # dotfiles
 
-> 🛠  My macOS configuration dotfiles for vimrc, zshrc & aliases etc
+> 🛠  My macOS configuration dotfiles for vim, zsh, aliases, themes etc

@@ -1,8 +1,11 @@
 # macOS
 .DS_Store
 
-# PhpStorm
+# IDE
 .idea/
+.vscode/
+.sencha/
 
 # Node
 node_modules/
+

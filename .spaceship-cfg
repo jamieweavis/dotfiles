@@ -8,5 +8,11 @@ SPACESHIP_TIME_SHOW=true
 SPACESHIP_DIR_TRUNC=0
 
 # Git
-SPACESHIP_GIT_BRANCH_PREFIX="\uF418 " # Nerd fonts branch icon
+SPACESHIP_GIT_BRANCH_PREFIX="\uF418 " # Nerd fonts octicons branch icon (nf-oct-git_branch)
+
+# Go
+SPACESHIP_GOLANG_SHOW=false
+
+# Package
+SPACESHIP_PACKAGE_SHOW=false
 

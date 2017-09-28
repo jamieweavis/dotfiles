@@ -10,6 +10,9 @@ SPACESHIP_DIR_TRUNC=0
 # Git
 SPACESHIP_GIT_BRANCH_PREFIX="\uF418 " # Nerd fonts octicons branch icon (nf-oct-git_branch)
 
+# Battery
+SPACESHIP_BATTERY_SHOW=false
+
 # Go
 SPACESHIP_GOLANG_SHOW=false
 

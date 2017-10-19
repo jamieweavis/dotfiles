@@ -2,10 +2,9 @@
 .DS_Store
 
 # IDE
-.idea/
-.vscode/
-.sencha/
+.idea
+.vscode
 
 # Node
-node_modules/
+node_modules
 

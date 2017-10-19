@@ -2,7 +2,7 @@
 export ZSH="$HOME/.oh-my-zsh"
 
 # Plugins
-plugins=(zsh-autosuggestions zsh-syntax-highlighting)
+plugins=(macports apache2-macports composer zsh-autosuggestions zsh-syntax-highlighting)
 
 # Start ZSH
 source $ZSH/oh-my-zsh.sh
@@ -19,7 +19,4 @@ export PATH="$HOME/.composer/vendor/bin/:$PATH"      # Composer
 # Aliases
 source ~/.aliases
 source ~/.mxm-aliases
-
-# Load syntax highlighting plugin
-source "$HOME/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh"
 

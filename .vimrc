@@ -10,8 +10,7 @@ call plug#end()
 " Configure plugins
 let g:javascript_plugin_jsdoc = 1
 let g:airline_powerline_fonts = 1
-let g:airline_theme='tomorrow'
-colorscheme Tomorrow-Night-Eighties
+let g:airline_theme='onedark'
 
 
 " Override vim-sensible

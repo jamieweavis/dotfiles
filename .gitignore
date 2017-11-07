@@ -1,10 +1,13 @@
 # macOS
 .DS_Store
 
+# Node
+node_modules
+
 # IDE
 .idea
 .vscode
 
-# Node
-node_modules
+#Logs
+*.log
 

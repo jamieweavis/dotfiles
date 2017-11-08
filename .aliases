@@ -22,7 +22,7 @@ alias l="ls -lah"
 alias ll="ls -lh"
 alias la="ls -lAh"
 
-# Coloured grep
+# Grep
 alias grep="grep --color=auto"
 alias fgrep="fgrep --color=auto"
 alias egrep="egrep --color=auto"

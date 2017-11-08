@@ -10,7 +10,6 @@ alias dl="cd ~/Downloads"
 alias dt="cd ~/Desktop"
 alias s="cd ~/Sites"
 alias p="cd ~/Projects"
-alias c="clear"
 
 # File Shortcuts
 alias aliases="vim ~/.aliases"
@@ -32,5 +31,3 @@ alias egrep="egrep --color=auto"
 alias show="defaults write com.apple.finder AppleShowAllFiles -bool true; killall Finder"
 alias hide="defaults write com.apple.finder AppleShowAllFiles -bool false; killall Finder"
 
-# Fun
-alias plz="sudo"

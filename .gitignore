@@ -2,11 +2,11 @@
 .DS_Store
 
 # Node
-node_modules
+node_modules/
 
 # IDE
-.idea
-.vscode
+.idea/
+.vscode/
 
 # Logs
 *.log

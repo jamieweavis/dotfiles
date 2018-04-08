@@ -3,12 +3,14 @@
 	email = jamie.weavis@gmail.com
 	username = jamieweavis
 
+[core]
+	editor = vim
+	whitespace = fix,-indent-with-non-tab,trailing-space,cr-at-eol
+	excludesfile = ~/.gitignore
+
 [alias]
 	s = status -s
 	l = log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit
-
-[core]
-	excludesfile = /Users/jamie/.gitignore
 
 [color]
 	ui = true

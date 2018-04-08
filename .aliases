@@ -11,8 +11,7 @@ alias dt="cd ~/Desktop"
 alias s="cd ~/Sites"
 alias p="cd ~/Projects"
 
-# File Shortcuts
-alias aliases="vim ~/.aliases"
+# Files
 alias hosts="sudo vim /private/etc/hosts"
 alias vhosts="vim ~/Sites/apache/httpd-vhosts.conf"
 alias phptail="tail -fn25 /var/log/php.log"

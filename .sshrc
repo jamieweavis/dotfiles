@@ -1,0 +1,4 @@
+source $SSHHOME/.sshrc.d/.aliases
+source $SSHHOME/.sshrc.d/.bash_profile
+source $SSHHOME/.sshrc.d/.bash_prompt
+source $SSHHOME/.sshrc.d/.bashrc

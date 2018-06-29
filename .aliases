@@ -4,6 +4,7 @@ alias ...="cd ../.."
 alias ....="cd ../../.."
 alias .....="cd ../../../.."
 alias ......="cd ../../../../.."
+alias ~="cd ~"
 
 # Shortcuts
 alias dl="cd ~/Downloads"
@@ -11,22 +12,9 @@ alias dt="cd ~/Desktop"
 alias s="cd ~/Sites"
 alias p="cd ~/Projects"
 
-# Files
-alias hosts="sudo vim /private/etc/hosts"
-alias vhosts="vim ~/Sites/apache/httpd-vhosts.conf"
-alias phptail="tail -fn25 /var/log/php.log"
-
-# List
-alias l="ls -lah"
-alias ll="ls -lh"
-alias la="ls -lAh"
-
-# Grep
+# Better commands
+alias ls="ls -G"
+alias la="ls -la"
 alias grep="grep --color=auto"
 alias fgrep="fgrep --color=auto"
 alias egrep="egrep --color=auto"
-
-# Show/hide hidden files in Finder
-alias show="defaults write com.apple.finder AppleShowAllFiles -bool true; killall Finder"
-alias hide="defaults write com.apple.finder AppleShowAllFiles -bool false; killall Finder"
-

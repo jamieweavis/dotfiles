@@ -2,3 +2,10 @@
 <h3 align="center">dotfiles</h3>
 <p align="center">🍎 My macOS dotfiles</p>
 
+## Related
+
+* [dotman](https://github.com/jamieweavis/dotman) - 🤖 Coming soon
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details.

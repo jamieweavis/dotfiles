@@ -4,7 +4,7 @@
 
 ## Related
 
-* [dotman](https://github.com/jamieweavis/dotman) - 🤖 Coming soon
+* [dotman](https://github.com/jamieweavis/dotman) - 🔮 Simplistic dotfile manager
 
 ## License
 

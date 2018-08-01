@@ -1,72 +1,50 @@
-prompt_git() {
-    local s='';
-    local branchName='';
-
-    # Check if the current directory is in a Git repository.
-    if [ $(git rev-parse --is-inside-work-tree &>/dev/null; echo "${?}") == '0' ]; then
-
-        # check if the current directory is in .git before running git checks
-        if [ "$(git rev-parse --is-inside-git-dir 2> /dev/null)" == 'false' ]; then
-
-            # Ensure the index is up to date.
-            git update-index --really-refresh -q &>/dev/null;
-
-            # Check for uncommitted changes in the index.
-            if ! $(git diff --quiet --ignore-submodules --cached); then
-                s+='+';
-            fi;
-
-            # Check for unstaged changes.
-            if ! $(git diff-files --quiet --ignore-submodules --); then
-                s+='!';
-            fi;
-
-            # Check for untracked files.
-            if [ -n "$(git ls-files --others --exclude-standard)" ]; then
-                s+='?';
-            fi;
-
-            # Check for stashed files.
-            if $(git rev-parse --verify refs/stash &>/dev/null); then
-                s+='$';
-            fi;
-
-        fi;
-
-        # Get the short symbolic ref.
-        # If HEAD isn’t a symbolic ref, get the short SHA for the latest commit
-        # Otherwise, just give up.
-        branchName="$(git symbolic-ref --quiet --short HEAD 2> /dev/null || \
-            git rev-parse --short HEAD 2> /dev/null || \
-            echo '(unknown)')";
-
-        [ -n "${s}" ] && s=" [${s}]";
-
-        echo -e "${1}${branchName}${2}${s}";
+function parse_git_branch() {
+    BRANCH=`git branch 2> /dev/null | sed -e '/^[^*]/d' -e 's/* \(.*\)/\1/'`
+    if [ ! "${BRANCH}" == "" ]
+    then
+        STAT=`parse_git_dirty`
+        printf " on \e[35m${BRANCH}${STAT}\e[m"
     else
-        return;
-    fi;
+        echo ""
+    fi
 }
 
-reset="\e[0m";
-black="\e[1;30m";
-blue="\e[1;34m";
-cyan="\e[1;36m";
-green="\e[1;32m";
-orange="\e[1;33m";
-purple="\e[1;35m";
-red="\e[1;31m";
-violet="\e[1;35m";
-white="\e[1;37m";
-yellow="\e[1;33m";
+function parse_git_dirty {
+    status=`git status 2>&1 | tee`
+    dirty=`echo -n "${status}" 2> /dev/null | grep "modified:" &> /dev/null; echo "$?"`
+    untracked=`echo -n "${status}" 2> /dev/null | grep "Untracked files" &> /dev/null; echo "$?"`
+    ahead=`echo -n "${status}" 2> /dev/null | grep "Your branch is ahead of" &> /dev/null; echo "$?"`
+    behind=`echo -n "${status}" 2> /dev/null | grep "Your branch is behind" &> /dev/null; echo "$?"`
+    newfile=`echo -n "${status}" 2> /dev/null | grep "new file:" &> /dev/null; echo "$?"`
+    renamed=`echo -n "${status}" 2> /dev/null | grep "renamed:" &> /dev/null; echo "$?"`
+    deleted=`echo -n "${status}" 2> /dev/null | grep "deleted:" &> /dev/null; echo "$?"`
+    bits=''
+    if [ "${renamed}" == "0" ]; then
+        bits="r${bits}"
+    fi
+    if [ "${ahead}" == "0" ]; then
+        bits="↑${bits}"
+    fi
+    if [ "${behind}" == "0" ]; then
+        bits="↓${bits}"
+    fi
+    if [ "${newfile}" == "0" ]; then
+        bits="+${bits}"
+    fi
+    if [ "${untracked}" == "0" ]; then
+        bits="?${bits}"
+    fi
+    if [ "${deleted}" == "0" ]; then
+        bits="✗${bits}"
+    fi
+    if [ "${dirty}" == "0" ]; then
+        bits="!${bits}"
+    fi
+    if [ ! "${bits}" == "" ]; then
+        printf "${bits}"
+    else
+        printf ""
+    fi
+}
 
-PS1="\[\033]0;\W\007\]";                                          # working directory base name
-PS1+="\[${red}\]\u";                                              # username
-PS1+="\[${white}\] at ";                                          # at
-PS1+="\[${yellow}\]\h";                                           # host
-PS1+="\[${white}\] in ";                                          # in
-PS1+="\[${blue}\]\w";                                             # working directory full path
-PS1+="\$(prompt_git \"\[${white}\] on \[${violet}\]\" \"\[\]\")"; # git status
-PS1+="\n";                                                        # newline
-PS1+="\[${violet}\]\$ \[${reset}\]";                              # $
-export PS1;
+export PS1="\e[31m\u\e[m at \e[33m\h\e[m in \e[34m\W\e[m\`parse_git_branch\`\n\e[35m𝚫\e[m "

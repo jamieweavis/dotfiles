@@ -1,21 +1,21 @@
 [user]
-	name = Jamie Weavis
-	email = jamie.weavis@gmail.com
-	username = jamieweavis
+    name = Jamie Weavis
+    email = jamie.weavis@gmail.com
+    username = jamieweavis
 
 [core]
-	editor = vim
-	whitespace = fix,-indent-with-non-tab,trailing-space,cr-at-eol
-	excludesfile = ~/.gitignore
+    editor = vim
+    whitespace = fix,-indent-with-non-tab,trailing-space,cr-at-eol
+    excludesfile = ~/.gitignore
 
 [alias]
-	s = status -s
-	l = log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit
+    s = status -s
+    l = log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit
 
 [color]
-	ui = true
+    ui = true
 
 [push]
-	default = current
-	followTags = true
+    default = current
+    followTags = true
 

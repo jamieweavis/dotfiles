@@ -9,8 +9,8 @@
     excludesfile = ~/.gitignore
 
 [alias]
-    st = status -s
-    lg = log --graph --date-order --date=short --pretty=format:'%C(auto)%h%d %C(reset)%s %C(dim white)(%an, %ar)%C(reset)'
+    s = status -s
+    l = log --graph --date-order --date=short --pretty=format:'%C(auto)%h%d %C(reset)%s %C(dim white)(%an, %ar)%C(reset)'
 
 [color]
     ui = true

@@ -12,7 +12,7 @@ alias dt="cd ~/Desktop"
 alias s="cd ~/Sites"
 alias p="cd ~/Projects"
 
-# Better commands
+# Improved commands
 alias ls="ls -G"
 alias la="ls -la"
 alias grep="grep --color=auto"

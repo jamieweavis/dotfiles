@@ -11,6 +11,7 @@ alias dl="cd ~/Downloads"
 alias dt="cd ~/Desktop"
 alias s="cd ~/Sites"
 alias p="cd ~/Projects"
+alias t="cd ~/Temp"
 
 # Improved commands
 alias ls="ls -G"

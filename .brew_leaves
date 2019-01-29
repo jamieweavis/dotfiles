@@ -2,6 +2,6 @@ bash
 bat
 git
 mysql
-n
+nvm
 python
 yarn

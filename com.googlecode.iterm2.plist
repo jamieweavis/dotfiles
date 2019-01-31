@@ -2585,13 +2585,13 @@
 	<key>NSWindow Frame NSFontPanel</key>
 	<string>3499 83 620 364 1680 -30 2560 1057 </string>
 	<key>NSWindow Frame SharedPreferences</key>
-	<string>2526 526 918 423 1680 -30 2560 1057 </string>
+	<string>2888 446 770 429 1680 -30 2560 1057 </string>
 	<key>NSWindow Frame iTerm Window 0</key>
-	<string>1680 -30 1280 1057 1680 -30 2560 1057 </string>
+	<string>1812 401 900 518 1680 -30 2560 1057 </string>
 	<key>NSWindow Frame iTerm Window 1</key>
-	<string>2943 210 900 522 1680 -30 2560 1057 </string>
+	<string>1850 186 900 518 1680 -30 2560 1057 </string>
 	<key>NSWindow Frame iTerm Window 2</key>
-	<string>2044 38 790 459 1680 -30 2560 1057 </string>
+	<string>2007 82 900 518 1680 -30 2560 1057 </string>
 	<key>New Bookmarks</key>
 	<array>
 		<dict>
@@ -3389,7 +3389,7 @@
 			<key>Right Option Key Sends</key>
 			<integer>0</integer>
 			<key>Rows</key>
-			<integer>30</integer>
+			<integer>28</integer>
 			<key>Screen</key>
 			<integer>-1</integer>
 			<key>Scrollback Lines</key>
@@ -3528,7 +3528,7 @@
 	<key>SUHasLaunchedBefore</key>
 	<true/>
 	<key>SULastCheckTime</key>
-	<date>2019-01-29T16:31:54Z</date>
+	<date>2019-01-31T08:48:09Z</date>
 	<key>SUSendProfileInfo</key>
 	<false/>
 	<key>ShowBookmarkName</key>

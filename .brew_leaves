@@ -1,7 +1,6 @@
 bash
+bash-completion
 bat
 git
-mysql
+mysql@5.7
 nvm
-python
-yarn

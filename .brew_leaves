@@ -2,7 +2,8 @@ bash
 bash-completion
 bat
 git
-mysql@5.7
+go
+mysql
 nvm
-watchman
+python
 yarn

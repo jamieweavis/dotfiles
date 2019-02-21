@@ -11,3 +11,6 @@ export NVM_DIR="$HOME/.nvm"
 
 # git bash autocompletion
 [ -f /usr/local/etc/bash_completion ] && . /usr/local/etc/bash_completion
+
+# Directory window title
+export PROMPT_COMMAND="$PROMPT_COMMAND : echo -n '\033]0;${PWD##*/}\007' "

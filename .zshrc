@@ -1,5 +1,6 @@
-# Load aliases
-source ~/.aliases
+# Load aliases & extra
+[ -f ~/.aliases ] && source ~/.aliases
+[ -f ~/.extra ] && source ~/.extra
 
 # Load antigen
 source /usr/local/share/antigen/antigen.zsh

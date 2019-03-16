@@ -1,3 +1,6 @@
+# Load aliases
+source ~/.aliases
+
 # Load antigen
 source /usr/local/share/antigen/antigen.zsh
 

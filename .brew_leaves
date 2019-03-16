@@ -1,9 +1,5 @@
-bash
-bash-completion
+antigen
 bat
 git
-go
-mysql
-nvm
-python
 yarn
+zsh

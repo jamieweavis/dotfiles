@@ -6,6 +6,12 @@
 # Highlight tab completion
 zstyle ':completion:*' menu select
 
+# Persist history
+HISTFILE=~/.zsh_history
+HISTSIZE=10000
+SAVEHIST=10000
+setopt appendhistory
+
 # Antigen
 
 ## Load Antigen
@@ -26,4 +32,3 @@ antigen theme denysdovhan/spaceship-prompt
 
 ## Let's go
 antigen apply
-

@@ -1,4 +1,5 @@
 # Load aliases & extra
+[ -f ~/.zsh_prompt ] && source ~/.zsh_prompt
 [ -f ~/.aliases ] && source ~/.aliases
 [ -f ~/.extra ] && source ~/.extra
 

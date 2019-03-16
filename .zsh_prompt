@@ -1,0 +1,15 @@
+SPACESHIP_GIT_SYMBOL=
+SPACESHIP_DIR_LOCK_SYMBOL=
+SPACESHIP_TIME_SHOW=true
+
+SPACESHIP_PROMPT_ORDER=(
+  time
+  user
+  dir
+  host
+  git
+  exec_time
+  line_sep
+  exit_code
+  char
+)

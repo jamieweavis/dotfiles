@@ -26,3 +26,9 @@ antigen theme denysdovhan/spaceship-prompt
 
 ## Let's go
 antigen apply
+
+# Binds
+
+## Bind history-substring-search
+bindkey '\eOA' history-substring-search-up
+bindkey '\eOB' history-substring-search-down

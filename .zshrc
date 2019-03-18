@@ -13,9 +13,9 @@ antigen use oh-my-zsh
 
 ## Load plugins
 antigen bundle zsh-users/zsh-completions
-antigen bundle zsh-users/zsh-history-substring-search
 antigen bundle zsh-users/zsh-autosuggestions
 antigen bundle zsh-users/zsh-syntax-highlighting
+antigen bundle zsh-users/zsh-history-substring-search
 
 ## Lazy load nvm
 export NVM_LAZY_LOAD=true

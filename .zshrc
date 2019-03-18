@@ -3,19 +3,13 @@
 [ -f ~/.aliases ] && source ~/.aliases
 [ -f ~/.extra ] && source ~/.extra
 
-# Highlight tab completion
-zstyle ':completion:*' menu select
-
-# Persist history
-HISTFILE=~/.zsh_history
-HISTSIZE=10000
-SAVEHIST=10000
-setopt appendhistory
-
 # Antigen
 
 ## Load Antigen
 source /usr/local/share/antigen/antigen.zsh
+
+## Load the oh-my-zsh library
+antigen use oh-my-zsh
 
 ## Load plugins
 antigen bundle zsh-users/zsh-completions

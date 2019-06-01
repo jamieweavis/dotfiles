@@ -32,3 +32,8 @@ antigen apply
 ## Bind history-substring-search
 bindkey '\eOA' history-substring-search-up
 bindkey '\eOB' history-substring-search-down
+
+# Path
+
+## yarn
+export PATH="$HOME/.yarn/bin:$HOME/.config/yarn/global/node_modules/.bin:$PATH"

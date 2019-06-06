@@ -17,10 +17,6 @@ antigen bundle zsh-users/zsh-autosuggestions
 antigen bundle zsh-users/zsh-syntax-highlighting
 antigen bundle zsh-users/zsh-history-substring-search
 
-## Lazy load nvm
-export NVM_LAZY_LOAD=true
-antigen bundle lukechilds/zsh-nvm
-
 ## Load spaceship theme
 antigen theme denysdovhan/spaceship-prompt
 
@@ -37,3 +33,9 @@ bindkey '\eOB' history-substring-search-down
 
 ## yarn
 export PATH="$HOME/.yarn/bin:$HOME/.config/yarn/global/node_modules/.bin:$PATH"
+
+## nvm
+export NVM_DIR="$HOME/.nvm"
+  [ -s "/usr/local/opt/nvm/nvm.sh" ] && . "/usr/local/opt/nvm/nvm.sh"
+  [ -s "/usr/local/opt/nvm/etc/zsh_completion" ] && . "/usr/local/opt/nvm/etc/zsh_completion"
+

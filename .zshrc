@@ -17,9 +17,6 @@ antigen bundle zsh-users/zsh-autosuggestions
 antigen bundle zsh-users/zsh-syntax-highlighting
 antigen bundle zsh-users/zsh-history-substring-search
 
-## Load spaceship theme
-antigen theme denysdovhan/spaceship-prompt
-
 ## Let's go
 antigen apply
 
@@ -39,3 +36,5 @@ export NVM_DIR="$HOME/.nvm"
   [ -s "/usr/local/opt/nvm/nvm.sh" ] && . "/usr/local/opt/nvm/nvm.sh"
   [ -s "/usr/local/opt/nvm/etc/zsh_completion" ] && . "/usr/local/opt/nvm/etc/zsh_completion"
 
+# Theme
+eval "$(starship init zsh)"

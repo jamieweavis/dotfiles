@@ -1,5 +1,7 @@
 antigen
 bat
+deno
 git
 nvm
+starship
 zsh

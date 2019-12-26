@@ -1,5 +1,4 @@
 # Load aliases & extra
-[ -f ~/.zsh_prompt ] && source ~/.zsh_prompt
 [ -f ~/.aliases ] && source ~/.aliases
 [ -f ~/.extra ] && source ~/.extra
 
@@ -17,7 +16,7 @@ antigen bundle zsh-users/zsh-autosuggestions
 antigen bundle zsh-users/zsh-syntax-highlighting
 antigen bundle zsh-users/zsh-history-substring-search
 
-## Let's go
+## Apply antigen plugins
 antigen apply
 
 # Binds

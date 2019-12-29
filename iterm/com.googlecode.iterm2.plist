@@ -541,7 +541,7 @@
 	<key>NSWindow Frame SharedPreferences</key>
 	<string>299 295 918 423 0 0 1680 1027 </string>
 	<key>NSWindow Frame iTerm Window 0</key>
-	<string>0 465 900 562 0 0 1680 1027 </string>
+	<string>0 0 1680 1027 0 0 1680 1027 </string>
 	<key>NSWindow Frame iTerm Window 1</key>
 	<string>2131 105 900 490 1680 -30 2560 1057 </string>
 	<key>New Bookmarks</key>
@@ -893,7 +893,7 @@
 			<key>Horizontal Spacing</key>
 			<real>1</real>
 			<key>Icon</key>
-			<integer>0</integer>
+			<integer>1</integer>
 			<key>Idle Code</key>
 			<integer>0</integer>
 			<key>Jobs to Ignore</key>
@@ -1542,7 +1542,7 @@
 			<key>Thin Strokes</key>
 			<integer>4</integer>
 			<key>Title Components</key>
-			<integer>3</integer>
+			<integer>6</integer>
 			<key>Transparency</key>
 			<real>0.0</real>
 			<key>Unlimited Scrollback</key>
@@ -1570,14 +1570,14 @@
 	<key>NoSyncAllAppVersions</key>
 	<array>
 		<string>3.3.6</string>
-		<string>3.3.2</string>
+		<string>3.3.4</string>
 		<string>3.3.1</string>
 		<string>3.3.3</string>
 		<string>3.3.5</string>
 		<string>3.3.7</string>
-		<string>3.2.9</string>
 		<string>3.3.0</string>
-		<string>3.3.4</string>
+		<string>3.3.2</string>
+		<string>3.2.9</string>
 	</array>
 	<key>NoSyncBFPRecents</key>
 	<array>
@@ -1588,14 +1588,14 @@
 		<key>screenFrame</key>
 		<string>{{0, 0}, {1680, 1050}}</string>
 		<key>topLeft</key>
-		<string>{460, 862}</string>
+		<string>{518, 619}</string>
 	</dict>
 	<key>NoSyncHaveWarnedAboutPasteConfirmationChange</key>
 	<true/>
 	<key>NoSyncInstallationId</key>
 	<string>3A135432-31FA-457A-8264-9853CBEFEC15</string>
 	<key>NoSyncLaunchExperienceControllerRunCount</key>
-	<integer>79</integer>
+	<integer>84</integer>
 	<key>NoSyncNeverRemindPrefsChangesLostForFile</key>
 	<true/>
 	<key>NoSyncNeverRemindPrefsChangesLostForFile_selection</key>
@@ -2382,7 +2382,7 @@
 	<key>SUHasLaunchedBefore</key>
 	<true/>
 	<key>SULastCheckTime</key>
-	<date>2019-12-26T22:01:16Z</date>
+	<date>2019-12-29T10:42:23Z</date>
 	<key>SUSendProfileInfo</key>
 	<false/>
 	<key>SUUpdateRelaunchingMarker</key>

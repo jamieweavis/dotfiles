@@ -1,0 +1,20 @@
+# Don't print a new line at the start of the prompt
+add_newline = false
+
+# Disable contextual segments
+prompt_order = [
+    "username",
+    "hostname",
+    "kubernetes",
+    "directory",
+    "git_branch",
+    "git_commit",
+    "git_state",
+    "git_status",
+    "hg_branch",
+    "character",
+]
+
+# Disable two line prompt
+[line_break]
+disabled = true

@@ -753,9 +753,9 @@
 	<key>NSWindow Frame SharedPreferences</key>
 	<string>648 354 937 514 0 0 1680 1027 </string>
 	<key>NSWindow Frame iTerm Window 0</key>
-	<string>2510 231 900 534 1680 -30 2560 1057 </string>
+	<string>0 0 1920 1057 0 0 1920 1057 </string>
 	<key>NSWindow Frame iTerm Window 1</key>
-	<string>1680 493 900 534 1680 -30 2560 1057 </string>
+	<string>0 523 900 534 0 0 1920 1057 </string>
 	<key>NSWindow Frame iTerm Window 2</key>
 	<string>390 268 900 490 0 0 1680 1027 </string>
 	<key>New Bookmarks</key>
@@ -768,7 +768,7 @@
 			<key>Allow Title Reporting</key>
 			<false/>
 			<key>Allow Title Setting</key>
-			<false/>
+			<true/>
 			<key>Ambiguous Double Width</key>
 			<false/>
 			<key>Ansi 0 Color</key>
@@ -946,7 +946,7 @@
 			<key>Blinking Cursor</key>
 			<true/>
 			<key>Blur</key>
-			<true/>
+			<false/>
 			<key>Blur Radius</key>
 			<real>0.10000000000000001</real>
 			<key>Bold Color</key>
@@ -1696,7 +1696,7 @@
 			<key>Unlimited Scrollback</key>
 			<true/>
 			<key>Use Bold Font</key>
-			<false/>
+			<true/>
 			<key>Use Bright Bold</key>
 			<true/>
 			<key>Use Cursor Guide</key>
@@ -1719,15 +1719,15 @@
 	<array>
 		<string>3.3.6</string>
 		<string>3.3.8</string>
-		<string>3.3.4</string>
+		<string>3.3.2</string>
 		<string>3.3.1</string>
 		<string>3.3.3</string>
 		<string>3.3.5</string>
 		<string>3.3.7</string>
 		<string>3.3.9</string>
 		<string>3.3.0</string>
-		<string>3.3.2</string>
 		<string>3.2.9</string>
+		<string>3.3.4</string>
 	</array>
 	<key>NoSyncBFPFavorites</key>
 	<array>
@@ -1742,9 +1742,9 @@
 	<key>NoSyncFrame_SharedPreferences</key>
 	<dict>
 		<key>screenFrame</key>
-		<string>{{1680, -30}, {2560, 1080}}</string>
+		<string>{{0, 0}, {1920, 1080}}</string>
 		<key>topLeft</key>
-		<string>{1772, 903}</string>
+		<string>{713, 874}</string>
 	</dict>
 	<key>NoSyncHaveRequestedFullDiskAccess</key>
 	<true/>
@@ -1753,7 +1753,7 @@
 	<key>NoSyncInstallationId</key>
 	<string>4A9B6809-7EAF-477D-AFAE-48342C0603AF</string>
 	<key>NoSyncLaunchExperienceControllerRunCount</key>
-	<integer>202</integer>
+	<integer>249</integer>
 	<key>NoSyncNeverRemindPrefsChangesLostForFile</key>
 	<true/>
 	<key>NoSyncNeverRemindPrefsChangesLostForFile_selection</key>
@@ -2492,6 +2492,8 @@
 	<false/>
 	<key>PMPrintingExpandedStateForPrint2</key>
 	<false/>
+	<key>PasteTabToStringTabStopSize</key>
+	<integer>4</integer>
 	<key>PointerActions</key>
 	<dict>
 		<key>Button,1,1,,</key>
@@ -2540,7 +2542,7 @@
 	<key>SUHasLaunchedBefore</key>
 	<true/>
 	<key>SULastCheckTime</key>
-	<date>2020-02-14T10:15:52Z</date>
+	<date>2020-04-29T10:02:56Z</date>
 	<key>SUSendProfileInfo</key>
 	<false/>
 	<key>SUUpdateGroupIdentifier</key>

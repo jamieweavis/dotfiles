@@ -10,6 +10,10 @@ source /usr/local/share/antigen/antigen.zsh
 ## Load the oh-my-zsh library
 antigen use oh-my-zsh
 
+## Load oh-my-zsh plugins
+antigen bundle git
+antigen bundle command-not-found
+
 ## Load plugins
 antigen bundle zsh-users/zsh-completions
 antigen bundle zsh-users/zsh-autosuggestions

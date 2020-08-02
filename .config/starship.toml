@@ -1,6 +1,3 @@
-# Don't print a new line at the start of the prompt
-add_newline = false
-
 # Disable contextual segments
 prompt_order = [
     "username",
@@ -12,9 +9,7 @@ prompt_order = [
     "git_state",
     "git_status",
     "hg_branch",
+    "line_break",
     "character",
 ]
 
-# Disable two line prompt
-[line_break]
-disabled = true

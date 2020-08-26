@@ -29,6 +29,14 @@ antigen apply
 bindkey '\eOA' history-substring-search-up
 bindkey '\eOB' history-substring-search-down
 
+# Configuration
+
+HISTORY_SUBSTRING_SEARCH_HIGHLIGHT_FOUND='bg=226,fg=black,bold'
+ZSH_HIGHLIGHT_STYLES[single-hyphen-option]='fg=blue'
+ZSH_HIGHLIGHT_STYLES[double-hyphen-option]='fg=blue'
+ZSH_HIGHLIGHT_STYLES[single-quoted-argument]='fg=magenta'
+ZSH_HIGHLIGHT_STYLES[double-quoted-argument]='fg=magenta'
+
 # Path
 
 ## yarn
@@ -41,3 +49,4 @@ export NVM_DIR="$HOME/.nvm"
 
 # Theme
 eval "$(starship init zsh)"
+

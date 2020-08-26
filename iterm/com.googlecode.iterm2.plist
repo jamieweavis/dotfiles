@@ -543,9 +543,9 @@
 	<key>NSWindow Frame SharedPreferences</key>
 	<string>648 354 937 514 0 0 1680 1027 </string>
 	<key>NSWindow Frame iTerm Window 0</key>
-	<string>510 261 900 534 0 0 1680 1027 </string>
+	<string>2190 231 900 534 1680 -30 1920 1057 </string>
 	<key>NSWindow Frame iTerm Window 1</key>
-	<string>0 523 900 534 0 0 1920 1057 </string>
+	<string>0 493 900 534 0 0 1680 1027 </string>
 	<key>NSWindow Frame iTerm Window 2</key>
 	<string>390 268 900 490 0 0 1680 1027 </string>
 	<key>New Bookmarks</key>
@@ -861,13 +861,13 @@
 				<key>Alpha Component</key>
 				<real>1</real>
 				<key>Blue Component</key>
-				<real>0.15977835655212402</real>
+				<real>0.20784313725490197</real>
 				<key>Color Space</key>
-				<string>Calibrated</string>
+				<string>sRGB</string>
 				<key>Green Component</key>
-				<real>0.12215268611907959</real>
+				<real>0.16078431372549021</real>
 				<key>Red Component</key>
-				<real>0.1176580935716629</real>
+				<real>0.15294117647058825</real>
 			</dict>
 			<key>Cursor Type</key>
 			<integer>2</integer>
@@ -907,7 +907,7 @@
 			<key>Idle Code</key>
 			<integer>0</integer>
 			<key>Initial Use Transparency</key>
-			<false/>
+			<true/>
 			<key>Jobs to Ignore</key>
 			<array>
 				<string>rlogin</string>
@@ -1355,7 +1355,7 @@
 			<key>Non-ASCII Anti Aliased</key>
 			<true/>
 			<key>Normal Font</key>
-			<string>SourceCodePro-Regular 13</string>
+			<string>Hasklig-Regular 13</string>
 			<key>Only The Default BG Color Uses Transparency</key>
 			<false/>
 			<key>Option Key Sends</key>
@@ -1609,12 +1609,11 @@
 	</array>
 	<key>NoSyncBFPFavorites</key>
 	<array>
-		<string>Operator Mono Lig</string>
-		<string>Fira Code</string>
+		<string>Hasklig</string>
 	</array>
 	<key>NoSyncBFPRecents</key>
 	<array>
-		<string>Source Code Pro</string>
+		<string>Hasklig</string>
 	</array>
 	<key>NoSyncFrame_SessionsPreferences</key>
 	<dict>
@@ -1626,9 +1625,9 @@
 	<key>NoSyncFrame_SharedPreferences</key>
 	<dict>
 		<key>screenFrame</key>
-		<string>{{0, 0}, {1680, 1050}}</string>
+		<string>{{1680, -30}, {1920, 1080}}</string>
 		<key>topLeft</key>
-		<string>{220, 769}</string>
+		<string>{2504, 816}</string>
 	</dict>
 	<key>NoSyncHaveRequestedFullDiskAccess</key>
 	<true/>
@@ -1637,7 +1636,7 @@
 	<key>NoSyncInstallationId</key>
 	<string>4A9B6809-7EAF-477D-AFAE-48342C0603AF</string>
 	<key>NoSyncLaunchExperienceControllerRunCount</key>
-	<integer>315</integer>
+	<integer>333</integer>
 	<key>NoSyncNeverRemindPrefsChangesLostForFile</key>
 	<true/>
 	<key>NoSyncNeverRemindPrefsChangesLostForFile_selection</key>
@@ -2434,7 +2433,7 @@
 	<key>SUHasLaunchedBefore</key>
 	<true/>
 	<key>SULastCheckTime</key>
-	<date>2020-08-02T19:24:42Z</date>
+	<date>2020-08-11T12:38:46Z</date>
 	<key>SUSendProfileInfo</key>
 	<false/>
 	<key>SUUpdateGroupIdentifier</key>

@@ -4,4 +4,5 @@ deno
 git
 nvm
 starship
+tree
 zsh

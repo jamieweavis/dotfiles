@@ -1,0 +1,16 @@
+{
+  "name": "dotfiles",
+  "scripts": {
+    "brew": "npm run casks && npm run leaves",
+    "casks": "brew list --cask > brew/brew_cask_list",
+    "leaves": "brew leaves > brew/brew_leaves"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jamieweavis/dotfiles.git"
+  },
+  "keywords": [],
+  "author": "Jamie Weavis <jamie.weavis@gmail.com>",
+  "license": "ISC",
+  "homepage": "https://github.com/jamieweavis/dotfiles#readme"
+}

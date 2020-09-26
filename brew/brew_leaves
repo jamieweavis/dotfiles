@@ -1,10 +1,15 @@
 antigen
+aws/tap/aws-sam-cli
+awscli
 bat
 deno
 git
+grc
 nvm
+prettyping
 koekeishiya/formulae/skhd
 starship
 tree
+vim
 koekeishiya/formulae/yabai
 zsh

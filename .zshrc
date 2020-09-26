@@ -50,3 +50,6 @@ export NVM_DIR="$HOME/.nvm"
 # Theme
 eval "$(starship init zsh)"
 
+# Colourise output with grc
+source "`brew --prefix`/etc/grc.bashrc"
+

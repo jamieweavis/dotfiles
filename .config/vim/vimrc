@@ -13,12 +13,19 @@ set ignorecase      " Ignore case of search
 set wildmenu        " Visual tab autocomplete for : command menu
 set ruler           " Show caret coordinates on status bar
 
-set smarttab        " Soft smart tabs, 2 spaces
+set smarttab
 set smartindent
 set tabstop=2
 set shiftwidth=2
 set softtabstop=2
-set expandtab
+set expandtab       " Use spaces instead of tabs
 
-set nocompatible
+set ai              " Auto indent
+set si              " Smart indent
+set wrap            " Wrap lines
+
+set backspace=2     " Allow backspace at start of line
+set nocompatible    " Fix insert mode?
+
+set laststatus=2    " Show status line
 

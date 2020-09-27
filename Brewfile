@@ -18,7 +18,7 @@ brew "zsh"
 
 # 'brew tap'
 tap "homebrew/cask"
-tag "homebrew/cask-fonts"
+tap "homebrew/cask-fonts"
 
 # 'brew cask install'
 cask "1password"

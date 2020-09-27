@@ -1,10 +1,22 @@
 # dotfiles
 
-🍎 My macOS dotfiles
+> 👨‍💻️ My macOS dotfiles - zsh, aliases, brew, git, vim, yabai, skhd
 
-## Related
+![Screenshot of my terminal prompt](https://i.imgur.com/KA88WsC.png)
 
-* [dotman](https://github.com/jamieweavis/dotman) - 🔮 Simplistic dotfile manager
+## Installation
+
+Sync dotfiles to home directory
+
+```bash
+./bootstrap.sh
+```
+
+Install brew dependencies & casks
+
+```bash
+brew bundle
+```
 
 ## License
 

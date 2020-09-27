@@ -1,6 +1,6 @@
 # Load aliases & extra
-[ -f ~/.aliases ] && source ~/.aliases
-[ -f ~/.extra ] && source ~/.extra
+[ -f ~/.aliases/aliases ] && source ~/.aliases/aliases
+[ -f ~/.aliases/local ] && source ~/.local
 
 # Antigen
 

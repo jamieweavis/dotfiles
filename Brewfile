@@ -1,3 +1,8 @@
+# 'brew tap'
+tap "homebrew/cask"
+tap "homebrew/cask-fonts"
+tap "aws/tap"
+
 # 'brew install'
 brew "antigen"
 brew "aws/tap/aws-sam-cli"
@@ -15,10 +20,6 @@ brew "tree"
 brew "vim"
 brew "koekeishiya/formulae/yabai"
 brew "zsh"
-
-# 'brew tap'
-tap "homebrew/cask"
-tap "homebrew/cask-fonts"
 
 # 'brew cask install'
 cask "1password"

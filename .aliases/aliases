@@ -1,19 +1,10 @@
-# Navigation
-alias ..="cd .."
-alias ...="cd ../.."
-alias ....="cd ../../.."
-alias .....="cd ../../../.."
-alias ......="cd ../../../../.."
-alias ~="cd ~"
-
 # Shortcuts
 alias dl="cd ~/Downloads"
 alias dt="cd ~/Desktop"
-alias s="cd ~/Sites"
 alias p="cd ~/Projects"
 alias t="cd ~/Temp"
 
-# Improved commands
+# Colourise basic commands
 alias ls="ls -G"
 alias la="ls -la"
 alias grep="grep --color=auto"

@@ -1,12 +1,9 @@
 # 'brew tap'
 tap "homebrew/cask"
 tap "homebrew/cask-fonts"
-tap "aws/tap"
 
 # 'brew install'
 brew "antigen"
-brew "aws/tap/aws-sam-cli"
-brew "awscli"
 brew "bat"
 brew "deno"
 brew "git"

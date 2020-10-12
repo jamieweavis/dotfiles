@@ -16,6 +16,7 @@ brew "starship"
 brew "tree"
 brew "vim"
 brew "koekeishiya/formulae/yabai"
+brew "yarn"
 brew "zsh"
 
 # 'brew cask install'

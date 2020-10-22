@@ -12,7 +12,6 @@ brew "mysql@5.7", restart_service: true, link: true, conflicts_with: ["mysql"]
 brew "nvm"
 brew "prettyping"
 brew "koekeishiya/formulae/skhd"
-brew "starship"
 brew "tree"
 brew "vim"
 brew "koekeishiya/formulae/yabai"

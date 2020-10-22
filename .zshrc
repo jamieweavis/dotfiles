@@ -23,8 +23,8 @@ antigen theme romkatv/powerlevel10k         # Load theme
 antigen apply
 
 # Keybinds
-bindkey '^[[A' history-substring-search-up
-bindkey '^[[B' history-substring-search-down
+bindkey '\eOA' history-substring-search-up
+bindkey '\eOB' history-substring-search-down
 
 # Configuration
 HISTORY_SUBSTRING_SEARCH_HIGHLIGHT_FOUND='bg=226,fg=black,bold' # 226 = Yellow

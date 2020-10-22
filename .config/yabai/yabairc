@@ -2,11 +2,11 @@
 yabai -m config layout bsp
 
 # Hipster padding
-yabai -m config top_padding    20
+yabai -m config top_padding 20
+yabai -m config right_padding 20
 yabai -m config bottom_padding 20
-yabai -m config left_padding   20
-yabai -m config right_padding  20
-yabai -m config window_gap     20
+yabai -m config left_padding 20
+yabai -m config window_gap 20
 
 # Extra padding for simple-bar
 yabai -m config external_bar all:29:0

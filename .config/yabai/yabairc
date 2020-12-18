@@ -9,7 +9,10 @@ yabai -m config left_padding 20
 yabai -m config window_gap 20
 
 # Extra padding for simple-bar
-yabai -m config external_bar all:29:0
+#yabai -m config external_bar all:29:0
+
+# Disable shadows
+#yabai -m config window_shadow off
 
 # Refresh spaces widget on space change
 yabai -m signal --add event=space_changed action="osascript -e 'tell application \"Übersicht\" to refresh widget id \"simple-bar-spaces-jsx\"'"

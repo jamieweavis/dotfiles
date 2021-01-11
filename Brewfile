@@ -6,7 +6,7 @@ tap "homebrew/cask-fonts"
 # 'brew install'
 brew "antigen"
 brew "bat"
-brew "deno"
+# brew "deno"
 brew "gh"
 brew "git"
 brew "grc"
@@ -14,7 +14,6 @@ brew "grc"
 # brew "koekeishiya/formulae/yabai"
 brew "mysql@5.7", restart_service: true, link: true, conflicts_with: ["mysql"]
 # brew "nvm" # Unsupported - install manually
-brew "prettyping"
 brew "tree"
 brew "vim"
 # brew "yarn" # Installs node - install manually

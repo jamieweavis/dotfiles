@@ -539,9 +539,9 @@
 	<key>NSWindow Frame SUUpdateAlert</key>
 	<string>650 498 620 392 0 0 1920 1057 </string>
 	<key>NSWindow Frame iTerm Window 0</key>
-	<string>20 20 1880 1018 0 0 1920 1057 </string>
+	<string>1210 20 690 1018 0 0 1920 1057 </string>
 	<key>NSWindow Frame iTerm Window 1</key>
-	<string>970 539 455 499 0 0 1920 1057 </string>
+	<string>1290 20 295 499 0 0 1920 1057 </string>
 	<key>NSWindow Frame iTerm Window 10</key>
 	<string>970 539 930 499 0 0 1920 1057 </string>
 	<key>NSWindow Frame iTerm Window 11</key>
@@ -555,7 +555,7 @@
 	<key>NSWindow Frame iTerm Window 15</key>
 	<string>20 538 455 240 0 0 1920 1057 </string>
 	<key>NSWindow Frame iTerm Window 2</key>
-	<string>970 279 455 240 0 0 1920 1057 </string>
+	<string>1210 20 690 499 0 0 1920 1057 </string>
 	<key>NSWindow Frame iTerm Window 3</key>
 	<string>1445 279 455 240 0 0 1920 1057 </string>
 	<key>NSWindow Frame iTerm Window 4</key>
@@ -1391,7 +1391,7 @@
 			<key>Non-ASCII Anti Aliased</key>
 			<true/>
 			<key>Normal Font</key>
-			<string>HasklugNerdFontComplete-Regular 13</string>
+			<string>HasklugNerdFontComplete-Regular 14</string>
 			<key>Only The Default BG Color Uses Transparency</key>
 			<false/>
 			<key>Option Key Sends</key>
@@ -1641,7 +1641,7 @@
 	<key>NoSyncInstallationId</key>
 	<string>0E2B19F3-209D-4252-AA8B-B9B43A7ECD33</string>
 	<key>NoSyncLaunchExperienceControllerRunCount</key>
-	<integer>81</integer>
+	<integer>95</integer>
 	<key>NoSyncNeverRemindPrefsChangesLostForFile</key>
 	<true/>
 	<key>NoSyncNeverRemindPrefsChangesLostForFile_selection</key>
@@ -2450,7 +2450,7 @@
 	<key>SUHasLaunchedBefore</key>
 	<true/>
 	<key>SULastCheckTime</key>
-	<date>2021-01-11T08:21:24Z</date>
+	<date>2021-01-18T07:59:31Z</date>
 	<key>SUSendProfileInfo</key>
 	<false/>
 	<key>ShowBookmarkName</key>

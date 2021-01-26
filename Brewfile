@@ -48,3 +48,6 @@ cask "spotify"
 # cask "unity"
 # cask "unity-hub"
 cask "visual-studio-code"
+
+# Mac App Store
+mas 'ColorSlurp', id: 1287239339

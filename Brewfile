@@ -1,7 +1,7 @@
 # 'brew tap'
 tap "homebrew/cask"
 tap "homebrew/cask-fonts"
-# tap "koekeishiya/formulae"
+tap "koekeishiya/formulae"
 
 # 'brew install'
 brew "antigen"
@@ -10,8 +10,8 @@ brew "bat"
 brew "gh"
 brew "git"
 brew "grc"
-# brew "koekeishiya/formulae/skhd"
-# brew "koekeishiya/formulae/yabai"
+brew "koekeishiya/formulae/skhd"
+brew "koekeishiya/formulae/yabai"
 brew "mysql@5.7", restart_service: true, link: true, conflicts_with: ["mysql"]
 # brew "nvm" # Unsupported - install manually
 brew "tree"
@@ -41,7 +41,6 @@ cask "keepingyouawake"
 cask "postman"
 cask "sequel-pro-nightly"
 cask "slack"
-# cask "spectacle"
 cask "spotify"
 # cask "steam"
 # cask "ubersicht"

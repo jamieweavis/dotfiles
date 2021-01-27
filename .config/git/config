@@ -17,6 +17,8 @@
     cm = commit -m
     s = status -s
     l = log --graph --date-order --date=short --pretty=format:'%C(auto)%h%d %C(reset)%s %C(dim white)(%an, %ar)%C(reset)'
+    su = stash --include-untracked
+    sp = stash pop
 
 [color]
     ui = true

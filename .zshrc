@@ -12,8 +12,8 @@ fi
 
 # Antigen
 source /usr/local/share/antigen/antigen.zsh
-antigen use oh-my-zsh
-antigen bundle git
+# antigen use oh-my-zsh # unused without git bundle
+# antigen bundle git # testing custom git aliases
 # antigen bundle command-not-found # this adds ~400ms to shell start!
 antigen bundle zsh-users/zsh-completions
 antigen bundle zsh-users/zsh-autosuggestions

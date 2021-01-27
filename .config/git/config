@@ -12,6 +12,7 @@
     c = commit
     cm = commit -m
     pu = push -u
+    pun = push -u --no-verify
     su = stash --include-untracked
     sp = stash pop
     s = status -s

@@ -9,16 +9,17 @@
     excludesfile = ~/.config/git/gitignore
 
 [alias]
-    fp = !git fetch && git pull
-    sfp = !git stash && git fetch && git pull
-    sfpp = !git stash && git fetch && git pull && git stash pop
-    pu = push -u
     c = commit
     cm = commit -m
-    s = status -s
-    l = log --graph --date-order --date=short --pretty=format:'%C(auto)%h%d %C(reset)%s %C(dim white)(%an, %ar)%C(reset)'
+    pu = push -u
     su = stash --include-untracked
     sp = stash pop
+    s = status -s
+    fp = !git fetch && git pull
+    sfp = !git stash && git fetch && git pull
+    sufp = !git stash --include-untracked && git fetch && git pull
+    sfpp = !git stash && git fetch && git pull && git stash pop
+    l = log --graph --date-order --date=short --pretty=format:'%C(auto)%h%d %C(reset)%s %C(dim white)(%an, %ar)%C(reset)'
 
 [color]
     ui = true

@@ -18,6 +18,7 @@
     s = status -s
     d = diff
     ds = diff --staged
+    f = fetch
     fp = !git fetch && git pull
     sfp = !git stash && git fetch && git pull
     sufp = !git stash --include-untracked && git fetch && git pull

@@ -1,6 +1,6 @@
 # dotfiles
 
-> 👨‍💻️ My macOS dotfiles - zsh, aliases, brew, git, vim, yabai, skhd
+> 👨‍💻️ My macOS dotfiles - configuration for zsh, aliases, brew, casks, git, vim, yabai, skhd & iTerm
 
 ![Screenshot of my terminal prompt](https://i.imgur.com/KA88WsC.png)
 

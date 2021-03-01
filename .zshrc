@@ -7,9 +7,6 @@ fi
 [ -f ~/.aliases/aliases ] && source ~/.aliases/aliases
 [ -f ~/.aliases/local ] && source ~/.aliases/local
 
-# Colourise output with grc
-[[ -s "`brew --prefix`/etc/grc.zsh" ]] && source "`brew --prefix`/etc/grc.zsh"
-
 # Antigen
 source /usr/local/share/antigen/antigen.zsh
 antigen use oh-my-zsh # lots of goodies included with this
@@ -21,6 +18,9 @@ antigen bundle zsh-users/zsh-syntax-highlighting
 antigen bundle zsh-users/zsh-history-substring-search
 antigen theme romkatv/powerlevel10k
 antigen apply
+
+# Colourise output with grc
+[[ -s "`brew --prefix`/etc/grc.zsh" ]] && source "`brew --prefix`/etc/grc.zsh"
 
 # Keybinds
 bindkey '\eOA' history-substring-search-up

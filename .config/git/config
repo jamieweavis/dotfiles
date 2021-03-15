@@ -10,6 +10,7 @@
 
 [alias]
     c = commit
+    co = checkout
     cm = commit -m
     d = diff
     ds = diff --staged

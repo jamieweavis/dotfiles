@@ -1,38 +1,38 @@
 [user]
-    name = Jamie Weavis
-    email = jamie.weavis@gmail.com
-    username = jamieweavis
+  name = Jamie Weavis
+  email = jamie.weavis@gmail.com
+  username = jamieweavis
 
 [core]
-    editor = vim
-    whitespace = fix,-indent-with-non-tab,trailing-space,cr-at-eol
-    excludesfile = ~/.config/git/gitignore
+  editor = vim
+  whitespace = fix,-indent-with-non-tab,trailing-space,cr-at-eol
+  excludesfile = ~/.config/git/gitignore
 
 [alias]
-    c = commit
-    co = checkout
-    cm = commit -m
-    d = diff
-    ds = diff --staged
-    f = fetch
-    fp = !git fetch && git pull
-    l = log --graph --date-order --date=short --pretty=format:'%C(auto)%h%d %C(reset)%s %C(dim white)(%an, %ar)%C(reset)'
-    p = push
-    pu = push -u
-    pun = push -u --no-verify
-    s = status -s
-    sp = stash pop
-    su = stash --include-untracked
-    sfp = !git stash && git fetch && git pull
-    sufp = !git stash --include-untracked && git fetch && git pull
-    sfpp = !git stash && git fetch && git pull && git stash pop
+  c = commit
+  co = checkout
+  cm = commit -m
+  d = diff
+  ds = diff --staged
+  f = fetch
+  fp = !git fetch && git pull
+  l = log --graph --date-order --date=short --pretty=format:'%C(auto)%h%d %C(reset)%s %C(dim white)(%an, %ar)%C(reset)'
+  p = push
+  pu = push -u
+  pun = push -u --no-verify
+  s = status -s
+  sp = stash pop
+  su = stash --include-untracked
+  sfp = !git stash && git fetch && git pull
+  sufp = !git stash --include-untracked && git fetch && git pull
+  sfpp = !git stash && git fetch && git pull && git stash pop
 
 [color]
-    ui = true
+  ui = true
 
 [push]
-    default = current
-    followTags = true
+  default = current
+  followTags = true
 
 [pull]
-    rebase = true
+  rebase = true

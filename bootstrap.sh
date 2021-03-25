@@ -3,7 +3,7 @@
 function doIt() {
 	rsync --exclude ".git/" \
 		--exclude ".DS_Store" \
-    --exclude "bin/" \
+    --exclude "iterm/" \
     --exclude "bootstrap.sh" \
 		--exclude "README.md" \
 		--exclude "LICENSE.md" \

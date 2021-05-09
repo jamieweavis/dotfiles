@@ -10,6 +10,8 @@
 	<integer>10</integer>
 	<key>BadgeTopMargin</key>
 	<integer>10</integer>
+	<key>CopySelection</key>
+	<false/>
 	<key>Custom Color Presets</key>
 	<dict>
 		<key>Dracula</key>

@@ -12,6 +12,7 @@ yabai -m config window_gap 20
 yabai -m rule --add app='^System Preferences$' manage=off
 yabai -m rule --add app='^ColorSlurp$' manage=off
 yabai -m rule --add title='Preferences$' manage=off
+yabai -m rule --add title='^Copy$' manage=off
 
 # Disable shadows (requires SIP disabled)
 #yabai -m config window_shadow off

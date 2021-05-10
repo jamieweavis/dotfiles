@@ -25,11 +25,11 @@ ctrl + shift - left:\
   yabai -m window --resize right:-20:0
 
 # Create space (requires SIP disabled)
-#ctrl + shift - c: yabai -m space --create
+ctrl + shift - c: yabai -m space --create
 
 # Destroy space (requires SIP disabled)
-#ctrl + shift - d: yabai -m space --destroy
+ctrl + shift - d: yabai -m space --destroy
 
 # Switch space (requires SIP disabled)
-#ctrl  - tab: yabai -m space --focus next || yabai -m space --focus first
-#ctrl + shift - tab: yabai -m space --focus prev || yabai -m space --focus last
+ctrl - right: yabai -m space --focus next || yabai -m space --focus first
+ctrl - left: yabai -m space --focus prev || yabai -m space --focus last

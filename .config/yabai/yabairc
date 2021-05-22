@@ -32,8 +32,8 @@ yabai -m rule --add title='^Copy$' manage=off
 yabai -m config window_shadow off
 
 # Mouse focus
-yabai -m config mouse_follows_focus on
-yabai -m config focus_follows_mouse autoraise
+# yabai -m config mouse_follows_focus on
+# yabai -m config focus_follows_mouse autoraise
 
 # Enable binary space partiion tiling
 yabai -m config layout bsp

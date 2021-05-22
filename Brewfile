@@ -39,7 +39,7 @@ cask "iterm2"
 cask "keepingyouawake"
 # cask "mono-mdk"
 # cask "postman"
-cask "sequel-pro-nightly"
+# cask "sequel-pro-nightly"
 cask "slack"
 cask "spotify"
 # cask "steam"
@@ -49,3 +49,4 @@ cask "visual-studio-code"
 
 # Mac App Store
 mas 'ColorSlurp', id: 1287239339
+mas 'Sequel Ace', id: 1518036000

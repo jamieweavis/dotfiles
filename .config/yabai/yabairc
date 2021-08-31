@@ -29,8 +29,10 @@ yabai -m rule --add app='^Kap$' border=off
 # Default floating window apps
 yabai -m rule --add app='^System Preferences$' manage=off
 yabai -m rule --add app='^ColorSlurp$' manage=off
+yabai -m rule --add app='^Pritunl$' manage=off
 yabai -m rule --add title='Preferences$' manage=off
 yabai -m rule --add title='^Copy$' manage=off
+yabai -m rule --add title='^Blender Render$' manage=off
 
 # Disable shadows (requires SIP disabled)
 yabai -m config window_shadow off

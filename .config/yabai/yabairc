@@ -33,6 +33,7 @@ yabai -m rule --add app='^Pritunl$' manage=off
 yabai -m rule --add title='Preferences$' manage=off
 yabai -m rule --add title='^Copy$' manage=off
 yabai -m rule --add title='^Blender Render$' manage=off
+yabai -m rule --add title='^Picture in Picture$' manage=off
 
 # Disable shadows (requires SIP disabled)
 yabai -m config window_shadow off

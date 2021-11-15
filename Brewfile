@@ -7,13 +7,16 @@ tap "koekeishiya/formulae"
 brew "antigen"
 brew "bat"
 # brew "deno"
-brew "gh"
+# brew "gh"
 brew "git"
 brew "grc"
 brew "koekeishiya/formulae/skhd"
 brew "koekeishiya/formulae/yabai"
-brew "mysql@5.7", restart_service: true, link: true, conflicts_with: ["mysql"]
+brew "mas"
+# brew "mysql@5.7", restart_service: true, link: true, conflicts_with: ["mysql"]
+brew "mysql", restart_service: true, link: true, conflicts_with: ["mysql@5.7"]
 # brew "nvm" # Unsupported - install manually
+brew "redis"
 brew "tree"
 brew "vim"
 # brew "yarn" # Installs node - install manually

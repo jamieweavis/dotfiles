@@ -56,3 +56,4 @@ cask "vmware-fusion"
 # Mac App Store
 mas 'ColorSlurp', id: 1287239339
 mas 'Sequel Ace', id: 1518036000
+mas 'Medis', id: 1579200037

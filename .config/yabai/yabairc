@@ -25,15 +25,26 @@ yabai -m config normal_window_border_color 0xff282a36
 # Border exceptions
 yabai -m rule --add app='^Simulator$' border=off
 yabai -m rule --add app='^Kap$' border=off
+yabai -m rule --add app='^RimWorld by Ludeon Studios$' border=off
 
-# Default floating window apps
+# Default floating window by app name
 yabai -m rule --add app='^System Preferences$' manage=off
 yabai -m rule --add app='^ColorSlurp$' manage=off
 yabai -m rule --add app='^Pritunl$' manage=off
+yabai -m rule --add app='^Activity Monitor$' manage=off
+yabai -m rule --add app='^Raycast$' manage=off
+yabai -m rule --add app='^VMware Fusion$' manage=off
+yabai -m rule --add app='^iGlance$' manage=off
+
+# Default floating window by window title
 yabai -m rule --add title='Preferences$' manage=off
+yabai -m rule --add title='Info$' manage=off
+yabai -m rule --add title='Settings$' manage=off
 yabai -m rule --add title='^Copy$' manage=off
 yabai -m rule --add title='^Blender Render$' manage=off
 yabai -m rule --add title='^Picture in Picture$' manage=off
+yabai -m rule --add title='^RimWorld by Ludeon Studios$' manage=off
+yabai -m rule --add title='^About This Mac$' manage=off
 
 # Disable shadows (requires SIP disabled)
 yabai -m config window_shadow off
@@ -44,4 +55,3 @@ yabai -m config window_shadow off
 
 # Enable binary space partiion tiling
 yabai -m config layout bsp
-

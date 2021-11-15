@@ -3,8 +3,10 @@
 function doIt() {
 	rsync --exclude ".git/" \
 		--exclude ".DS_Store" \
-    --exclude "iterm/" \
+    --exclude "bin/" \
     --exclude "bootstrap.sh" \
+		--exclude "Brewfile" \
+		--exclude "Brewfile.lock.json" \
 		--exclude "README.md" \
 		--exclude "LICENSE.md" \
 		-avh --no-perms . ~;

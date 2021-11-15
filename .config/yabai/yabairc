@@ -14,7 +14,7 @@ yabai -m config left_padding 20
 yabai -m config window_gap 20
 
 # Extra padding for simple-bar
-yabai -m config external_bar all:29:0
+# yabai -m config external_bar all:29:0
 
 # Window borders
 yabai -m config window_border on

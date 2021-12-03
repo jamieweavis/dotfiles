@@ -22,17 +22,22 @@ ctrl - down : yabai -m window --focus south
 ctrl - up : yabai -m window --focus north
 ctrl - right : yabai -m window --focus east
 
+## Destroy space (requires SIP disabled)
+ctrl - q: yabai -m space --focus prev; yabai -m space recent --destroy
+
+## Mission control
+ctrl - w: yabai -m space --toggle mission-control
+
 ## Create space (requires SIP disabled)
-ctrl - w: yabai -m space --create
+ctrl - e: yabai -m space --create
 
 ## Create space, moved focused app, and focus space (requires SIP disabled) - uses jq for parsing json (brew install jq)
-ctrl + shift - w : yabai -m space --create && \
+ctrl + shift - e : yabai -m space --create && \
   index="$(yabai -m query --spaces --display | jq 'map(select(."native-fullscreen" == 0))[-1].index')" && \
   yabai -m window --space "${index}" && \
   yabai -m space --focus "${index}"
 
-## Destroy space (requires SIP disabled)
-ctrl - q: yabai -m space --focus prev; yabai -m space recent --destroy
+ctrl - s: yabai -m window --toggle expose
 
 ## Switch space (requires SIP disabled)
 ctrl - d: yabai -m space --focus next || yabai -m space --focus first

@@ -1,4 +1,3 @@
-
 #!/usr/bin/env sh
 
 # necessary to load scripting-addition during startup on macOS Big Sur

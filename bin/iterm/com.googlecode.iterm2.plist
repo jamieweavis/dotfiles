@@ -373,7 +373,7 @@
 	<key>EnableProxyIcon</key>
 	<false/>
 	<key>FocusFollowsMouse</key>
-	<false/>
+	<true/>
 	<key>GlobalKeyMap</key>
 	<dict>
 		<key>0x19-0x60000</key>
@@ -1348,7 +1348,7 @@
 			<key>Show Status Bar</key>
 			<false/>
 			<key>Silence Bell</key>
-			<true/>
+			<false/>
 			<key>Smart Cursor Color</key>
 			<false/>
 			<key>Space</key>

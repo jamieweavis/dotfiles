@@ -53,5 +53,8 @@ export NVM_DIR="$([ -z "${XDG_CONFIG_HOME-}" ] && printf %s "${HOME}/.nvm" || pr
 # Yarn globals
 export PATH="$PATH:$HOME/.yarn/bin"
 
+# Homebrew sbin
+export PATH="/usr/local/sbin:$PATH"
+
 # Load theme configuration (must be near bottom)
 [[ ! -f ~/.config/p10k/p10k.zsh ]] || source ~/.config/p10k/p10k.zsh

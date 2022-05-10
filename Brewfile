@@ -7,7 +7,7 @@ brew "antigen"
 brew "bat"
 brew "git"
 brew "grc"
-brew "mas"
+# brew "mas"
 # brew "nvm" # Unsupported - install manually
 brew "tree"
 brew "vim"
@@ -19,14 +19,14 @@ cask "1password"
 # cask "aerial"
 cask "battle-net"
 # cask "brooklyn"
-cask "discord"
+# cask "discord"
 cask "docker"
 # cask "dotnet-sdk"
 cask "figma"
 cask "font-hasklig"
 cask "font-hasklug-nerd-font"
 cask "google-chrome"
-cask "hiddenbar"
+# cask "hiddenbar"
 cask "insomnia"
 cask "iterm2"
 cask "keepingyouawake"
@@ -42,5 +42,5 @@ cask "visual-studio-code"
 # cask "whatsapp"
 
 # Mac App Store
-mas 'ColorSlurp', id: 1287239339
+# mas 'ColorSlurp', id: 1287239339
 # mas 'Medis', id: 1579200037

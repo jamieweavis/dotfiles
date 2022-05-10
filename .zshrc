@@ -3,7 +3,7 @@
 [ -f ~/.aliases/local ] && source ~/.aliases/local
 
 # Antigen
-source /usr/local/share/antigen/antigen.zsh
+source /opt/homebrew/share/antigen/antigen.zsh
 antigen use oh-my-zsh # lots of goodies included with this
 # antigen bundle command-not-found # This adds ~400ms to shell start!
 antigen bundle zsh-users/zsh-completions
@@ -32,7 +32,7 @@ export NVM_DIR="$([ -z "${XDG_CONFIG_HOME-}" ] && printf %s "${HOME}/.nvm" || pr
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh" # This loads nvm
 
 # Homebrew sbin
-export PATH="/usr/local/sbin:$PATH"
+export PATH="/opt/homebrew/sbin:$PATH"
 
 # Load theme configuration (must be near bottom)
 [[ ! -f ~/.config/p10k/p10k.zsh ]] || source ~/.config/p10k/p10k.zsh

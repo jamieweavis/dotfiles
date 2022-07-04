@@ -1,8 +1,6 @@
 # dotfiles
 
-> 👨‍💻️ My macOS dotfiles - configuration for zsh, aliases, brew, casks, git, vim, yabai, skhd & iTerm
-
-![Screenshot of my terminal prompt](https://i.imgur.com/KA88WsC.png)
+> 👨‍💻️ My macOS dotfiles - configuration for zsh, aliases, brew, casks, git, vim, iTerm & Raycast
 
 ## Installation
 

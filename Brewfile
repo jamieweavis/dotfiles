@@ -7,19 +7,16 @@ brew "antigen"
 brew "bat"
 brew "git"
 brew "grc"
-# brew "nvm" # Unsupported - install manually
-brew "tree"
 brew "vim"
-# brew "yarn" # Installs node - install manually
 brew "zsh"
 
 # 'brew cask install'
 cask "1password"
-cask "battle-net"
+cask "ableton-live-lite"
 cask "docker"
 cask "figma"
-cask "font-hasklig"
-cask "font-hasklug-nerd-font"
+cask "font-hasklig" # Adobe Source Code Pro with ligatures
+cask "font-hasklug-nerd-font" # Hasklig patched with Nerd Fonts icons
 cask "google-chrome"
 cask "insomnia"
 cask "iterm2"
@@ -29,5 +26,6 @@ cask "sequel-ace"
 cask "slack"
 cask "spotify"
 cask "steam"
+cask "telegram"
 cask "visual-studio-code"
 cask "whatsapp"

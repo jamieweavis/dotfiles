@@ -20,6 +20,7 @@ cask "font-hasklug-nerd-font" # Hasklig patched with Nerd Fonts icons
 cask "google-chrome"
 cask "insomnia"
 cask "iterm2"
+cask "monitorcontrol"
 cask "raycast"
 cask "rekordbox"
 cask "sequel-ace"

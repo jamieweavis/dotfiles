@@ -4,16 +4,16 @@
 
 ## Installation
 
-Sync dotfiles to home directory
-
-```bash
-./bootstrap.sh
-```
-
 Install brew dependencies & casks
 
 ```bash
 brew bundle
+```
+
+Sync dotfiles to home directory
+
+```bash
+./bootstrap.sh
 ```
 
 ## License

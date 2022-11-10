@@ -12,7 +12,8 @@ brew "zsh"
 
 # 'brew cask install'
 cask "1password"
-cask "ableton-live-lite"
+cask "ableton-live-intro"
+cask "brave-browser"
 cask "docker"
 cask "figma"
 cask "font-hasklig" # Adobe Source Code Pro with ligatures

@@ -3,7 +3,6 @@ tap "homebrew/cask"
 tap "homebrew/cask-fonts"
 
 # 'brew install'
-brew "antigen"
 brew "bat"
 brew "git"
 brew "grc"

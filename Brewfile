@@ -3,6 +3,8 @@ tap "homebrew/cask"
 tap "homebrew/cask-fonts"
 
 # 'brew install'
+brew "antigen"
+brew "awscli"
 brew "bat"
 brew "git"
 brew "grc"
@@ -19,6 +21,7 @@ cask "font-hasklig" # Adobe Source Code Pro with ligatures
 cask "font-hasklug-nerd-font" # Hasklig patched with Nerd Fonts icons
 cask "google-chrome"
 cask "insomnia"
+cask "iterm"
 cask "monitorcontrol"
 cask "raycast"
 cask "rekordbox"
@@ -27,4 +30,3 @@ cask "slack"
 cask "spotify"
 cask "steam"
 cask "visual-studio-code"
-cask "warp"

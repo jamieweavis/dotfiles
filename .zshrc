@@ -1,7 +1,6 @@
-# Source aliases
+# Aliases
 [ -f ~/.aliases/aliases ] && source ~/.aliases/aliases
 [ -f ~/.aliases/local ] && source ~/.aliases/local
-
 
 # Antigen
 source /opt/homebrew/share/antigen/antigen.zsh
@@ -11,12 +10,12 @@ antigen bundle zsh-users/zsh-syntax-highlighting
 antigen bundle zsh-users/zsh-history-substring-search
 antigen apply
 
-# Custom keybinds
+# Keybinds
 bindkey '^[[A' history-substring-search-up
 bindkey '^[[B' history-substring-search-down
 
-# Configuration
-HISTORY_SUBSTRING_SEARCH_HIGHLIGHT_FOUND='bg=cyan,fg=black,bold' # 226 = Yellow
+# Plugin configuration
+HISTORY_SUBSTRING_SEARCH_HIGHLIGHT_FOUND='bg=cyan,fg=black,bold'
 ZSH_HIGHLIGHT_STYLES[single-hyphen-option]='fg=blue'
 ZSH_HIGHLIGHT_STYLES[double-hyphen-option]='fg=blue'
 ZSH_HIGHLIGHT_STYLES[single-quoted-argument]='fg=magenta'

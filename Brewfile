@@ -8,6 +8,7 @@ brew "awscli"
 brew "bat"
 brew "git"
 brew "grc"
+brew "pfetch"
 brew "vim"
 brew "zsh"
 

@@ -26,6 +26,7 @@
   sfp = !git stash && git fetch && git pull
   sufp = !git stash --include-untracked && git fetch && git pull
   sfpp = !git stash && git fetch && git pull && git stash pop
+  undo = reset --soft HEAD~1
 
 [color]
   ui = true

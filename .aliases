@@ -8,9 +8,3 @@ alias icloud="cd ~/Library/Mobile\ Documents/com~apple~CloudDocs/"
 # Command shortcuts
 alias c="clear"
 alias la="ls -la"
-
-# Vim with custom config path
-alias vim="vim -u ~/.config/vim/vimrc"
-
-# SSH Shortcuts
-alias pi="ssh jamie@192.168.1.2"

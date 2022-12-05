@@ -1,6 +1,6 @@
 # Aliases
-[ -f ~/.aliases/aliases ] && source ~/.aliases/aliases
-[ -f ~/.aliases/local ] && source ~/.aliases/local
+[ -f ~/.aliases ] && source ~/.aliases
+[ -f ~/.aliases-local ] && source ~/.aliases-local
 
 # Antigen
 [[ -e "/opt/homebrew/share/antigen/antigen.zsh" ]] && source "/opt/homebrew/share/antigen/antigen.zsh" ## macOS
@@ -40,4 +40,4 @@ export PS1="%F{cyan}%n%f at %F{magenta}%m%f in %F{blue}%1~%f 🍋 "
 HISTFILE=~/.zsh_history
 HISTSIZE=100000
 
-pfetch
+#pfetch

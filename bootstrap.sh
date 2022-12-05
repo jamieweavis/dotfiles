@@ -5,8 +5,6 @@ function doIt() {
 		--exclude ".DS_Store" \
     --exclude "bin/" \
     --exclude "bootstrap.sh" \
-		--exclude "Brewfile" \
-		--exclude "Brewfile.lock.json" \
 		--exclude "README.md" \
 		--exclude "LICENSE.md" \
 		-avh --no-perms . ~;

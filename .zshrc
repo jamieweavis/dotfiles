@@ -39,5 +39,3 @@ export PS1="%F{cyan}%n%f at %F{magenta}%m%f in %F{blue}%1~%f 🍋 "
 # Enable history
 HISTFILE=~/.zsh_history
 HISTSIZE=100000
-
-#pfetch

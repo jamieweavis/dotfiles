@@ -66,6 +66,7 @@ let NERDTreeShowHidden=1 " Show hidden files by default
 set signcolumn=number " Show signs in number column
 
 highlight LineNr ctermfg=DarkGrey " Set line number to DarkGrey
+highlight Normal ctermbg=NONE
 
 " Enabled coc extensions
 let g:coc_global_extensions = [

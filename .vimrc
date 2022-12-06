@@ -47,9 +47,9 @@ Plug 'tpope/vim-commentary'
 Plug 'tpope/vim-surround'
 Plug 'vim-airline/vim-airline'
 Plug 'ryanoasis/vim-devicons'
-Plug 'HerringtonDarkholme/yats.vim'
-Plug 'leafgarland/typescript-vim'
 Plug 'dracula/vim'
+Plug 'sheerun/vim-polyglot'
+Plug 'Yggdroot/indentLine'
 call plug#end()
 
 colorscheme dracula " Dracula theme

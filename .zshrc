@@ -30,9 +30,6 @@ ZSH_HIGHLIGHT_STYLES[double-quoted-argument]='fg=magenta'
 export NVM_DIR="$([ -z "${XDG_CONFIG_HOME-}" ] && printf %s "${HOME}/.nvm" || printf %s "${XDG_CONFIG_HOME}/nvm")"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh" # This loads nvm
 
-# Homebrew sbin
-export PATH="/opt/homebrew/sbin:$PATH"
-
 # Minimal custom prompt
 export PS1="%F{cyan}%n%f at %F{magenta}%m%f in %F{blue}%1~%f $EMOJI "
 
@@ -40,5 +37,10 @@ export PS1="%F{cyan}%n%f at %F{magenta}%m%f in %F{blue}%1~%f $EMOJI "
 HISTFILE=~/.zsh_history
 HISTSIZE=100000
 
-eval $(/opt/homebrew/bin/brew shellenv)
+# Load brew on macOS
+if ! brew -v &> /dev/null
+then
+    export PATH="/opt/homebrew/sbin:$PATH"
+    eval $(/opt/homebrew/bin/brew shellenv)
+fi
 

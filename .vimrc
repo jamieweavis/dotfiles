@@ -27,6 +27,8 @@ set expandtab
 
 set background=dark
 
+set shm+=I " Hide splash screen
+
 set breakindent
 set showbreak=↳\
 set linebreak

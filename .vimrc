@@ -30,7 +30,6 @@ set background=dark
 set shm+=I " Hide splash screen
 
 set breakindent
-set showbreak=↳\
 set linebreak
 syntax on " Enable syntax highlighting
 

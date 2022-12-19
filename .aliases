@@ -10,3 +10,5 @@ alias dots="cd ~/Projects/dotfiles"
 alias c="clear"
 alias la="ls -la"
 
+# Default env emoji for custom prompt
+export EMOJI="🍋"

@@ -38,8 +38,7 @@ HISTFILE=~/.zsh_history
 HISTSIZE=100000
 
 # Load brew on macOS
-if ! brew -v &> /dev/null
-then
+if [[ "$OSTYPE" =~ ^darwin ]]; then
     export PATH="/opt/homebrew/sbin:$PATH"
     eval $(/opt/homebrew/bin/brew shellenv)
 fi

@@ -52,6 +52,8 @@ Plug 'ryanoasis/vim-devicons'
 Plug 'dracula/vim'
 Plug 'sheerun/vim-polyglot'
 Plug 'Yggdroot/indentLine'
+Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
+Plug 'junegunn/fzf.vim'
 call plug#end()
 
 colorscheme dracula " Dracula theme

@@ -36,6 +36,8 @@ export PS1="%F{cyan}%n%f at %F{magenta}%m%f in %F{blue}%1~%f $EMOJI "
 # Enable history
 HISTFILE=~/.zsh_history
 HISTSIZE=100000
+SAVEHIST=100000
+setopt appendhistory
 
 # Load brew on macOS
 if [[ "$OSTYPE" =~ ^darwin ]]; then

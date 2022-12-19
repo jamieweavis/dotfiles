@@ -31,7 +31,7 @@ export NVM_DIR="$([ -z "${XDG_CONFIG_HOME-}" ] && printf %s "${HOME}/.nvm" || pr
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh" # This loads nvm
 
 # Minimal custom prompt
-export PS1="%F{cyan}%n%f at %F{magenta}%m%f in %F{blue}%1~%f $EMOJI "
+export PS1="%F{cyan}%n%f at %F{magenta}%m%f in %F{blue}%1~%f ${EMOJI} "
 
 # Enable history
 HISTFILE=~/.zsh_history

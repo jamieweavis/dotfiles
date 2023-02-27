@@ -22,10 +22,6 @@ ZSH_HIGHLIGHT_STYLES[double-hyphen-option]='fg=blue'
 ZSH_HIGHLIGHT_STYLES[single-quoted-argument]='fg=magenta'
 ZSH_HIGHLIGHT_STYLES[double-quoted-argument]='fg=magenta'
 
-# Colourise generic output with grc
-[[ -e "/opt/homebrew/etc/grc.zsh" ]] && source "/opt/homebrew/etc/grc.zsh" ## macOS
-[[ -e "/etc/grc.zsh" ]] && source "/etc/grc.zsh" ## Linux
-
 # Load nvm (this is slow!)
 export NVM_DIR="$([ -z "${XDG_CONFIG_HOME-}" ] && printf %s "${HOME}/.nvm" || printf %s "${XDG_CONFIG_HOME}/nvm")"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh" # This loads nvm

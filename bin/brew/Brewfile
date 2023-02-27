@@ -7,7 +7,7 @@ brew "antigen"
 brew "awscli"
 brew "git"
 brew "khanhas/tap/spicetify-cli"
-brew "neovim"
+brew "vim"
 brew "zsh"
 
 # 'brew cask install'
@@ -27,4 +27,3 @@ cask "spotify"
 cask "steam"
 cask "visual-studio-code"
 cask "whatsapp"
-

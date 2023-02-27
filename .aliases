@@ -9,7 +9,6 @@ alias dots="cd ~/Projects/dotfiles"
 # Command shortcuts
 alias c="clear"
 alias la="ls -la"
-alias vim="nvim"
 
 # Default env emoji for custom prompt
 export EMOJI="🍋"

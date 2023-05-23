@@ -2,8 +2,6 @@
 tap "homebrew/cask"
 
 # 'brew install'
-brew "antigen"
-brew "awscli"
 brew "git"
 brew "vim"
 brew "zsh"

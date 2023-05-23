@@ -1,6 +1,6 @@
 # dotfiles
 
-> 👨‍💻️ My macOS dotfiles - configuration for zsh, aliases, brew, casks, git, vim, iTerm & Raycast
+> 👨‍💻️ My macOS dotfiles - configuration for zsh, aliases, brew, git & vim
 
 ## Installation
 

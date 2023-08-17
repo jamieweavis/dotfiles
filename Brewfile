@@ -1,20 +1,27 @@
 # 'brew tap'
 tap "homebrew/cask"
+tap "homebrew/cask-fonts"
 
 # 'brew install'
+brew "bat"
+brew "exa"
 brew "git"
+brew "nethack"
+brew "starship"
+brew "tmux"
 brew "vim"
 brew "zsh"
 
-# 'brew cask install'
+# 'brew install --cask'
 cask "1password"
-cask "ableton-live-standard"
+cask "ankerwork"
 cask "arc"
-cask "battle-net"
-cask "blackhole-2ch"
 cask "docker"
 cask "figma"
+cask "font-fira-code"
+cask "font-fira-code-nerd-font"
+cask "iterm2"
 cask "raycast"
 cask "spotify"
 cask "visual-studio-code"
-cask "warp"
+

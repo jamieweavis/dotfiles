@@ -1,4 +1,4 @@
-# Folder shortcuts
+# Folder aliases
 alias dl="cd ~/Downloads"
 alias dt="cd ~/Desktop"
 alias p="cd ~/Projects"
@@ -6,9 +6,9 @@ alias t="cd ~/Temp"
 alias icloud="cd ~/Library/Mobile\ Documents/com~apple~CloudDocs/"
 alias dots="cd ~/Projects/dotfiles"
 
-# Command shortcuts
+# Command aliases
 alias c="clear"
-alias la="ls -lahG --color"
+alias cat="bat"
+alias ls="exa"
+alias la="ls -la"
 
-# Default env emoji for custom prompt
-export EMOJI="🍋"

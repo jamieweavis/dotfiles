@@ -15,3 +15,7 @@ setopt appendhistory
 # Homebrew
 export PATH="/opt/homebrew/sbin:$PATH"
 eval $(/opt/homebrew/bin/brew shellenv)
+
+# Starship prompt
+eval "$(starship init zsh)"
+

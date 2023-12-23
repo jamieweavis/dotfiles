@@ -1,8 +1,8 @@
 # 'brew tap'
-tap "homebrew/cask"
 tap "homebrew/cask-fonts"
 
 # 'brew install'
+brew "1password-cli"
 brew "bat"
 brew "exa"
 brew "git"
@@ -24,4 +24,3 @@ cask "iterm2"
 cask "raycast"
 cask "spotify"
 cask "visual-studio-code"
-

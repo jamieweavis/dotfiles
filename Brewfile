@@ -2,7 +2,6 @@
 tap "homebrew/cask-fonts"
 
 # 'brew install'
-brew "1password-cli"
 brew "bat"
 brew "exa"
 brew "git"

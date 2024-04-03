@@ -9,6 +9,7 @@ function doIt() {
     --exclude "bootstrap.sh" \
     --exclude "install.sh" \
 		--exclude "LICENSE.md" \
+		--exclude "com.googlecode.iterm2.plist" \
 		-avh --no-perms . ~;
 }
 

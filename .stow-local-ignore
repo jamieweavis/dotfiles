@@ -1,0 +1,27 @@
+# Default
+
+RCS
+.+,v
+
+CVS
+\.\#.+       # CVS conflict files / emacs lock files
+\.cvsignore
+
+\.svn
+_darcs
+\.hg
+
+\.git
+\.gitignore
+\.gitmodules
+
+.+~          # emacs backup files
+\#.*\#       # emacs autosave files
+
+^/README.*
+^/LICENSE.*
+^/COPYING
+
+# Custom
+Brewfile
+com.googlecode.iterm2.plist

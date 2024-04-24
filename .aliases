@@ -4,7 +4,7 @@ alias dt="cd ~/Desktop"
 alias p="cd ~/Projects"
 alias t="cd ~/Temp"
 alias icloud="cd ~/Library/Mobile\ Documents/com~apple~CloudDocs/"
-alias dots="cd ~/Projects/dotfiles"
+alias dots="cd ~/dotfiles"
 
 # Command aliases
 alias c="clear"

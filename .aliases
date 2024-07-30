@@ -9,6 +9,6 @@ alias dots="cd ~/dotfiles"
 # Command aliases
 alias c="clear"
 alias cat="bat"
-alias ls="exa"
+alias ls="ls -G"
 alias la="ls -la"
 

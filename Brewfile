@@ -1,15 +1,10 @@
-# 'brew tap'
-tap "homebrew/cask-fonts"
-
 # 'brew install'
 brew "awscli"
 brew "bat"
-brew "exa"
 brew "git"
 brew "nethack"
 brew "starship"
 brew "stow"
-brew "tmux"
 brew "vim"
 brew "zsh"
 
@@ -26,8 +21,6 @@ cask "google-chrome"
 cask "hyperkey"
 cask "iterm2"
 cask "mac-mouse-fix"
-cask "monitorcontrol"
-cask "openemu"
 cask "raycast"
 cask "spotify"
 cask "visual-studio-code"

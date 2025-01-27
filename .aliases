@@ -3,12 +3,11 @@ alias dl="cd ~/Downloads"
 alias dt="cd ~/Desktop"
 alias p="cd ~/Projects"
 alias t="cd ~/Temp"
-alias icloud="cd ~/Library/Mobile\ Documents/com~apple~CloudDocs/"
 alias dots="cd ~/dotfiles"
+alias icl="cd ~/Library/Mobile\ Documents/com~apple~CloudDocs/"
 
 # Command aliases
 alias c="clear"
 alias cat="bat"
 alias ls="ls -G"
 alias la="ls -la"
-

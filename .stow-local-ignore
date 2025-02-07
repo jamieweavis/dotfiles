@@ -25,3 +25,4 @@ _darcs
 # Custom
 Brewfile
 com.googlecode.iterm2.plist
+export.rayconfig

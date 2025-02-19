@@ -1,9 +1,8 @@
 # Folder aliases
 alias dl="cd ~/Downloads"
 alias dt="cd ~/Desktop"
-alias p="cd ~/Projects"
-alias t="cd ~/Temp"
-alias dots="cd ~/dotfiles"
+alias dev="cd ~/Developer"
+alias dots="cd ~/Developer/dotfiles"
 alias icl="cd ~/Library/Mobile\ Documents/com~apple~CloudDocs/"
 
 # Command aliases

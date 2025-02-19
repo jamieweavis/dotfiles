@@ -5,7 +5,6 @@ brew "git"
 brew "nethack"
 brew "starship"
 brew "stow"
-brew "tmux"
 brew "vim"
 brew "zsh"
 

@@ -12,7 +12,6 @@ _darcs
 \.hg
 
 \.git
-\.gitignore
 \.gitmodules
 
 .+~          # emacs backup files

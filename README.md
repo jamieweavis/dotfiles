@@ -25,7 +25,3 @@ Symlink dotfiles to home directory with [`stow`](https://www.gnu.org/software/st
 ```bash
 stow . --adopt --target ~
 ```
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details.

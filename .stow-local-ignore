@@ -24,3 +24,4 @@ _darcs
 Brewfile
 com.googlecode.iterm2.plist
 export.rayconfig
+install.sh

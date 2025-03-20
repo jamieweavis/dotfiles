@@ -5,20 +5,21 @@
 
 ## Features
 
-- zsh (`.zshrc`)
+- zsh config (`.zshrc`)
   - Starship prompt (https://starship.rs)
   - Aliases (`.aliases`)
 - nvm (https://github.com/nvm-sh/nvm)
-- vim (`.vimrc`)
+- vim config (`.vimrc`)
   - vim-plug (https://github.com/junegunn/vim-plug)
-- git (`.gitconfig`)
+- git config (`.gitconfig`)
   - Global gitignore (`.gitignore`)
 - Homebrew (https://brew.sh)
-  - `Brewfile` for installing CLI dependencies & desktop apps
+  - `Brewfile` for installing command line dependencies & desktop apps
+- Install script for automating setup on a new machine (`install.sh`)
+- Symlink management with `stow` (https://www.gnu.org/software/stow)
 - Binaries
   - Raycast configuration export
   - iTerm2 settings file
-- Symlink management with GNU Stow (https://www.gnu.org/software/stow)
 
 ## Install
 
@@ -29,11 +30,8 @@ git clone git@github.com:jamieweavis/dotfiles.git
 # Change directory
 cd dotfiles
 
-# Install brew dependencies & casks (may take some time)
-brew bundle
-
-# Symlink dotfiles to home directory with stow
-stow . --adopt --target ~
+# Install Brewfile dependencies, install vim plugins & nvm, symlink dotfiles (this may take a while to run)
+./install.sh
 ```
 
 ## License

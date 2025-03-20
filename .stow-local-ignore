@@ -19,6 +19,7 @@ _darcs
 
 ^/README.*
 ^/COPYING
+^/LICENSE
 
 # Custom
 Brewfile

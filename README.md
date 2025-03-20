@@ -7,7 +7,7 @@
 
 - zsh config (`.zshrc`)
   - Starship prompt (https://starship.rs)
-  - Aliases (`.aliases`)
+  - Aliases (`.aliases` & `.aliases-local` for local untracked aliases)
 - nvm (https://github.com/nvm-sh/nvm)
 - vim config (`.vimrc`)
   - vim-plug (https://github.com/junegunn/vim-plug)

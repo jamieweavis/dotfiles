@@ -41,7 +41,7 @@ if empty(glob(data_dir . '/autoload/plug.vim'))
 endif
 
 "Plugins with vim-plug"
-"https://github.com/digitaltoad/vim-pug"
+"https://github.com/junegunn/vim-plug"
 call plug#begin()
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
 Plug 'airblade/vim-gitgutter'

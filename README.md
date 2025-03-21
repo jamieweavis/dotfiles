@@ -6,6 +6,7 @@
 ## Features
 
 - zsh config (`.zshrc`)
+  - Fast & minimal zsh setup without plugins for speed (apart from starship prompt)
   - Starship prompt (https://starship.rs)
   - Aliases (`.aliases` & `.aliases-local` for local untracked aliases)
 - nvm (https://github.com/nvm-sh/nvm)

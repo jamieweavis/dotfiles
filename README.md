@@ -31,7 +31,7 @@ git clone git@github.com:jamieweavis/dotfiles.git
 # Change directory
 cd dotfiles
 
-# Install Brewfile dependencies, install vim plugins & nvm, symlink dotfiles (this may take a while to run)
+# Install brew dependencies, install vim plugins & nvm, symlink dotfiles (could take a while)
 ./install.sh
 ```
 

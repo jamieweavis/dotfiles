@@ -11,7 +11,7 @@ git clone git@github.com:jamieweavis/dotfiles.git
 # Change directory
 cd dotfiles
 
-# Install brew, brew formulae, brew casks, nvm & symlink dotfiles (this could take a while!)
+# Install brew, formulae, casks, nvm, node, nvim plugins & symlink dotfiles
 ./install.sh
 ```
 

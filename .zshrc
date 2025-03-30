@@ -25,5 +25,8 @@ zstyle ':completion:*' matcher-list 'm:{a-z}={A-Za-z}'
 export PATH="/opt/homebrew/sbin:$PATH"
 eval $(/opt/homebrew/bin/brew shellenv)
 
-# Starship prompt
+# Enable cd without cd
+setopt AUTO_CD
+
+# Starship prompt (https://starship.rs/)
 eval "$(starship init zsh)"

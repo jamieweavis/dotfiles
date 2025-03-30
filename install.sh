@@ -23,7 +23,7 @@ nvm install --lts
 
 # Symlink dotfiles with GNU Stow
 echo "● Symlinking dotfiles"
-stow . --adopt --target ~
+stow . --verbose 2 --adopt --target ~
 
 # Install nvim plugins
 echo "● Installing nvim plugins"

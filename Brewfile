@@ -3,9 +3,9 @@ brew "awscli"
 brew "bat"
 brew "git"
 brew "nethack"
+brew "nvim"
 brew "starship"
 brew "stow"
-brew "vim"
 brew "zsh"
 
 # 'brew install --cask'

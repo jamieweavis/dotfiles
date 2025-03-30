@@ -6,3 +6,5 @@ node_modules/
 
 # Logs
 *.log
+
+.config/nvim/pack

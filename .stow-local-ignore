@@ -22,7 +22,5 @@ _darcs
 ^/LICENSE
 
 # Custom
-Brewfile
-com.googlecode.iterm2.plist
-export.rayconfig
+bin
 install.sh

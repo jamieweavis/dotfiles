@@ -1,19 +1,34 @@
-#!/bin/sh
+#!/opt/homebrew/bin/zsh
 
 set -e
 
+echo "● Installing Homebrew"
 if [ ! "$(command -v brew)" ]; then
-	echo "Homebrew not found, installing..."
 	/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
-else
-	echo "Homebrew already installed, proceeding."
 fi
 
-echo "Installing Homebrew dependencies listed in Brewfile..."
-brew bundle
+echo "● Installing Brewfile formulae & casks"
+brew bundle --file=bin/Brewfile
 
-echo "Installing node version manager..."
-curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.40.2/install.sh | bash
+echo "● Installing nvm"
+if [ -s "$NVM_DIR/nvm.sh" ]; then
+	source "$NVM_DIR/nvm.sh"
+	echo "v$(nvm -v) is already installed."
+else
+	curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.40.2/install.sh | bash
+fi
 
-echo "Symlinking dotfiles..."
+echo "● Installing Node.js LTS"
+nvm install --lts
+
+# Symlink dotfiles with GNU Stow
+echo "● Symlinking dotfiles"
 stow . --adopt --target ~
+
+# Install nvim plugins
+echo "● Installing nvim plugins"
+nvim --headless "+Lazy! sync" +qa
+
+# Source .zshrc
+echo "\n● Installation complete - sourcing ~/.zshrc 🚀"
+source ~/.zshrc

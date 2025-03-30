@@ -28,5 +28,8 @@ eval $(/opt/homebrew/bin/brew shellenv)
 # Enable cd without cd
 setopt AUTO_CD
 
+# Rust
+[ -f "$HOME/.cargo/env" ] && source "$HOME/.cargo/env"
+
 # Starship prompt (https://starship.rs/)
 eval "$(starship init zsh)"

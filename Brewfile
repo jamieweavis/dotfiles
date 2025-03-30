@@ -1,6 +1,8 @@
-# 'brew install'
+# Formulae
 brew "awscli"
 brew "bat"
+brew "eza"
+brew "fzf"
 brew "git"
 brew "nethack"
 brew "nvim"
@@ -8,7 +10,7 @@ brew "starship"
 brew "stow"
 brew "zsh"
 
-# 'brew install --cask'
+# Casks
 cask "1password"
 cask "affinity-photo"
 cask "docker"

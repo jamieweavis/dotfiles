@@ -17,6 +17,10 @@ setopt appendhistory
 autoload -Uz compinit && compinit
 zstyle ':completion:*' menu select
 
+# Case insensitive tab completion
+autoload -Uz compinit && compinit
+zstyle ':completion:*' matcher-list 'm:{a-z}={A-Za-z}'
+
 # Homebrew (~.03s)
 export PATH="/opt/homebrew/sbin:$PATH"
 eval $(/opt/homebrew/bin/brew shellenv)

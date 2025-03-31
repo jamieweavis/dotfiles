@@ -13,6 +13,9 @@ vim.g.have_nerd_font = true
 -- Disable line cursor in insert mode
 vim.opt.guicursor = 'n-v-i-c:block-Cursor'
 
+-- Disable line wrap
+vim.opt.wrap = false
+
 -- [[ Setting options ]]
 -- See `:help vim.opt`
 -- NOTE: You can change these options as you wish!

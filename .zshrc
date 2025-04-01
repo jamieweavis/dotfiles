@@ -28,6 +28,10 @@ eval $(/opt/homebrew/bin/brew shellenv)
 # Enable cd without cd
 setopt AUTO_CD
 
+# Set default editor to neovim
+export VISUAL=nvim
+export EDITOR="$VISUAL"
+
 # Rust
 [ -f "$HOME/.cargo/env" ] && source "$HOME/.cargo/env"
 

@@ -1,6 +1,6 @@
 # dotfiles
 
-> 👨‍💻️ My macOS dotfiles - configuration for zsh, nvim, git, brew & more
+> 👨‍💻️ My macOS dotfiles - configuration for zsh, nvim, tmux, git & brew
 
 ## Install
 
@@ -11,7 +11,7 @@ git clone git@github.com:jamieweavis/dotfiles.git
 # Change directory
 cd dotfiles
 
-# Install brew, formulae, casks, nvm, node, nvim plugins & symlink dotfiles
+# Install brew, formulae, casks, nvm, node, nvim plugins, tmux plugins & symlink dotfiles
 ./install.sh
 ```
 

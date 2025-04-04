@@ -35,8 +35,8 @@ setopt AUTO_CD
 export VISUAL=nvim
 export EDITOR="$VISUAL"
 
-# Rust
-[ -f "$HOME/.cargo/env" ] && source "$HOME/.cargo/env"
+# Source untracked local zsh config
+[ -f ~/.zshrc.local ] && source ~/.zshrc.local
 
 # Starship prompt (https://starship.rs/)
 eval "$(starship init zsh)"

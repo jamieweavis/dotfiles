@@ -1,6 +1,6 @@
 # Aliases
 [ -f ~/.aliases ] && source ~/.aliases
-[ -f ~/.aliases-local ] && source ~/.aliases-local
+[ -f ~/.aliases.local ] && source ~/.aliases.local
 
 # Bind Ctrl + R to search history
 bindkey '^R' history-incremental-search-backward

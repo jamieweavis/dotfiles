@@ -1,6 +1,7 @@
 # Formulae
 brew "awscli"
 brew "bat"
+brew "biome"
 brew "eza"
 brew "fzf"
 brew "git"

@@ -4,24 +4,21 @@
 
 ## Install
 
-Set up fresh macOS environment:
+Set up fresh macOS development environment:
 
 ```bash
-# Clone the repo
-git clone git@github.com:jamieweavis/dotfiles.git
-
-# Change directory
-cd dotfiles
+# Clone dotfiles into `~/Developer/dotfiles`
+git clone https://github.com/jamieweavis/dotfiles.git ~/Developer/dotfiles
 
 # Install brew, formulae, casks, nvm, node, nvim plugins, tmux plugins & symlink dotfiles
-./install.sh
+~/Developer/dotfiles/install.sh
 ```
 
-Update dependencies & plugins:
+Update dependencies & plugins by running the install script again:
 
 ```bash
 # Update brew deps, nvim plugins, tmux plugins & re-symlink dotfiles
-./install.sh
+~/Developer/dotfiles/install.sh
 ```
 
 ## License

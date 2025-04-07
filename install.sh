@@ -9,7 +9,7 @@ if [ ! "$(command -v brew)" ]; then
 fi
 
 echo "● Installing Brewfile formulae & casks"
-brew bundle --file=bin/Brewfile
+brew bundle --file=$(dirname "$0")/bin/Brewfile
 
 echo "● Installing nvm"
 if [ -s "$NVM_DIR/nvm.sh" ]; then

@@ -2,6 +2,8 @@
 
 set -e
 
+cd $(dirname "$0")
+
 # (1/4) Install dependencies
 echo "● Installing Homebrew"
 if [ ! "$(command -v brew)" ]; then
@@ -9,7 +11,7 @@ if [ ! "$(command -v brew)" ]; then
 fi
 
 echo "● Installing Brewfile formulae & casks"
-brew bundle --file=$(dirname "$0")/bin/Brewfile
+brew bundle --file=./bin/Brewfile
 
 echo "● Installing nvm"
 if [ -s "$NVM_DIR/nvm.sh" ]; then
@@ -30,7 +32,6 @@ fi
 
 # (2/4) Symlink dotfiles
 echo "● Symlinking dotfiles"
-cd $(dirname "$0")
 stow . --verbose 2 --adopt --target ~
 
 # (3/4) Install configured plugins

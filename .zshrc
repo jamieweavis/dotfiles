@@ -2,9 +2,6 @@
 [ -f ~/.aliases ] && source ~/.aliases
 [ -f ~/.aliases.local ] && source ~/.aliases.local
 
-# Bind Ctrl + R to search history
-bindkey '^R' history-incremental-search-backward
-
 # Load nvm & default installed version of node (~0.5s)
 export NVM_DIR="$([ -z "${XDG_CONFIG_HOME-}" ] && printf %s "${HOME}/.nvm" || printf %s "${XDG_CONFIG_HOME}/nvm")"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"
@@ -34,6 +31,9 @@ setopt AUTO_CD
 # Set default editor to neovim
 export VISUAL=nvim
 export EDITOR="$VISUAL"
+
+# Set up fzf key bindings and fuzzy completion
+source <(fzf --zsh)
 
 # Source untracked local zsh config
 [ -f ~/.zshrc.local ] && source ~/.zshrc.local

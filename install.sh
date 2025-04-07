@@ -30,6 +30,7 @@ fi
 
 # (2/4) Symlink dotfiles
 echo "● Symlinking dotfiles"
+cd $(dirname "$0")
 stow . --verbose 2 --adopt --target ~
 
 # (3/4) Install configured plugins

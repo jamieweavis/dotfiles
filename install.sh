@@ -1,4 +1,4 @@
-#!/opt/homebrew/bin/zsh
+#!/bin/zsh
 
 set -e
 

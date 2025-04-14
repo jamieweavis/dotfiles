@@ -1,6 +1,6 @@
 # dotfiles
 
-> 👨‍💻️ My macOS dotfiles - configuration for zsh, nvim, tmux, git & brew
+My macOS developer config
 
 ## Install
 

@@ -3,10 +3,12 @@ brew "awscli"
 brew "bat"
 brew "biome"
 brew "eza"
+brew "fd" # for telescope.nvim
 brew "fzf"
 brew "gh"
 brew "git"
 brew "nvim"
+brew "ripgrep" # for telescope.nvim
 brew "starship"
 brew "stow"
 brew "zsh"

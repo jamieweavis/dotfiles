@@ -9,6 +9,7 @@ alias dots="cd ~/Developer/dotfiles"
 alias c="clear"
 alias v="nvim"
 alias f="fzf"
+alias vf='v $(f)'
 alias t="tmux new -A"
 alias ls="eza"
 alias la="ls -la"

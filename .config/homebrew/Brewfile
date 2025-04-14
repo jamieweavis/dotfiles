@@ -7,6 +7,7 @@ brew "fd" # for telescope.nvim
 brew "fzf"
 brew "gh"
 brew "git"
+brew "jamieweavis/tap/gus"
 brew "nvim"
 brew "ripgrep" # for telescope.nvim
 brew "starship"

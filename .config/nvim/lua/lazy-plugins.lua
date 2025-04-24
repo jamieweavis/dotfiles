@@ -1,0 +1,39 @@
+require('lazy').setup({
+  'tpope/vim-sleuth',
+  'github/copilot.vim',
+  require 'plugins/gitsigns',
+  require 'plugins/which-key',
+  require 'plugins/telescope',
+  require 'plugins/lazydev',
+  require 'plugins/lspconfig',
+  require 'plugins/conform',
+  require 'plugins/cmp',
+  require 'plugins/rosepine',
+  require 'plugins/todo-comments',
+  require 'plugins/mini',
+  require 'plugins/treesitter',
+  require 'plugins/indent-blankline',
+  require 'plugins/lint',
+  require 'plugins/autopairs',
+  require 'plugins/oil',
+}, {
+  ui = {
+    icons = vim.g.have_nerd_font and {} or {
+      cmd = '⌘',
+      config = '🛠',
+      event = '📅',
+      ft = '📂',
+      init = '⚙',
+      keys = '🗝',
+      plugin = '🔌',
+      runtime = '💻',
+      require = '🌙',
+      source = '📄',
+      start = '🚀',
+      task = '📌',
+      lazy = '💤 ',
+    },
+  },
+})
+
+-- vim: ts=2 sts=2 sw=2 et

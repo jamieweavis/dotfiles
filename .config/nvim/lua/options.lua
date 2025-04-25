@@ -1,6 +1,3 @@
--- Hide splash screen
-vim.opt.shortmess:append 'I'
-
 -- Disable switching to line cursor in insert mode
 vim.opt.guicursor = 'n-v-i-c:block-Cursor'
 

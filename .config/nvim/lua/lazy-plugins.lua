@@ -5,7 +5,7 @@ require('lazy').setup({
   require 'plugins/which-key',
   require 'plugins/telescope',
   require 'plugins/lazydev',
-  require 'plugins/lspconfig',
+  require 'plugins/lsp',
   require 'plugins/conform',
   require 'plugins/cmp',
   require 'plugins/rosepine',

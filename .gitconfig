@@ -2,11 +2,28 @@
 	name = Jamie
 	email = jamie.weavis@gmail.com
 	username = jamieweavis
+	signingkey = /Users/jamo/.ssh/id_ed25519
+
+[init]
+	defaultBranch = main
 
 [core]
-	editor = vim
+	editor = nvim
 	whitespace = fix,-indent-with-non-tab,trailing-space,cr-at-eol
 	excludesfile = ~/.config/git/gitignore
+
+[color]
+	ui = true
+
+[push]
+	default = current
+	followTags = true
+
+[gpg]
+	format = ssh
+
+[commit]
+	gpgsign = true
 
 [alias]
 	c = commit
@@ -28,13 +45,3 @@
 	sfpp = !git stash && git fetch && git pull && git stash pop
 	undo = reset --soft HEAD~1
 	b = branch
-
-[color]
-	ui = true
-
-[push]
-	default = current
-	followTags = true
-
-[init]
-	defaultBranch = main

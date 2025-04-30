@@ -7,6 +7,7 @@ brew "awscli"
 brew "bat"
 brew "biome"
 brew "deno"
+brew "diff-so-fancy"
 brew "eza"
 brew "fd" # for telescope.nvim
 brew "fzf"

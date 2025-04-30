@@ -31,5 +31,12 @@ vim.api.nvim_create_autocmd('TextYankPost', {
 
 -- Oil
 vim.api.nvim_set_keymap('n', '<leader>-', [[<cmd>lua require("oil").toggle_float()<CR>]], { noremap = true, silent = true, desc = 'Toggle Oil float' })
+-- vim.keymap.set("n", "<leader>-", function()
+--   if vim.bo.filetype == 'oil' then
+--     require("oil.actions").close.callback()
+--   else
+--     vim.cmd('Oil')
+--   end
+-- end)
 
 -- vim: ts=2 sts=2 sw=2 et

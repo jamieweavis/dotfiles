@@ -6,8 +6,8 @@ return {
     config = function()
       local lint = require 'lint'
       lint.linters_by_ft = {
-        javascript = { 'eslint_d', 'biomejs' },
-        typescript = { 'eslint_d', 'biomejs' },
+        javascript = { 'biomejs' },
+        typescript = { 'biomejs' },
       }
 
       -- To allow other plugins to add linters to require('lint').linters_by_ft,

@@ -1,3 +1,7 @@
+# Taps
+tap "jamieweavis/tap"
+tap "oven-sh/bun"
+
 # Formulae
 brew "awscli"
 brew "bat"

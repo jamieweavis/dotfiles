@@ -1,6 +1,22 @@
-# Aliases
-[ -f ~/.aliases ] && source ~/.aliases
-[ -f ~/.aliases.local ] && source ~/.aliases.local
+# Folder aliases
+alias dl="cd ~/Downloads"
+alias dt="cd ~/Desktop"
+alias dev="cd ~/Developer"
+alias icl="cd ~/Library/Mobile\ Documents/com~apple~CloudDocs/"
+alias dots="cd ~/Developer/dotfiles"
+
+# Command aliases
+alias c="clear"
+alias v="nvim"
+alias f="fzf"
+alias vf='v $(f)'
+alias t="tmux new -A"
+alias ls="eza"
+alias la="ls -la"
+alias cat="bat"
+
+# Local untracked zsh config
+[ -f ~/.zshrc.local] && source ~/.zshrc.local
 
 # Load nvm & default installed version of node (~0.5s)
 export NVM_DIR="$([ -z "${XDG_CONFIG_HOME-}" ] && printf %s "${HOME}/.nvm" || printf %s "${XDG_CONFIG_HOME}/nvm")"

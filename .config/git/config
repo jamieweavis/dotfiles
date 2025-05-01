@@ -84,3 +84,17 @@
 	remote   = yellow
 	upstream = green
 	plain    = blue
+
+[color "diff-highlight"]
+	oldNormal = red
+	oldHighlight = black red
+	newNormal = blue
+	newHighlight = black blue
+
+[color "diff"]
+	frag = cyan
+	old = red
+	new = blue
+
+[diff-so-fancy]
+	markEmptyLines = false

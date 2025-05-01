@@ -15,8 +15,8 @@ alias ls="eza"
 alias la="ls -la"
 alias cat="bat"
 
-# Local untracked zsh config
-[ -f ~/.zshrc.local] && source ~/.zshrc.local
+# Source untracked local zsh config
+[ -f ~/.zshrc.local ] && source ~/.zshrc.local
 
 # Load nvm & default installed version of node (~0.5s)
 export NVM_DIR="$([ -z "${XDG_CONFIG_HOME-}" ] && printf %s "${HOME}/.nvm" || printf %s "${XDG_CONFIG_HOME}/nvm")"
@@ -50,9 +50,6 @@ export EDITOR="$VISUAL"
 
 # Set up fzf key bindings and fuzzy completion
 source <(fzf --zsh)
-
-# Source untracked local zsh config
-[ -f ~/.zshrc.local ] && source ~/.zshrc.local
 
 # Starship prompt (https://starship.rs/)
 eval "$(starship init zsh)"

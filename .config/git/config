@@ -54,6 +54,9 @@
 [gpg]
 	format = ssh
 
+[diff-so-fancy]
+	markEmptyLines = false
+
 [alias]
 	c = commit --verbose
 	co = checkout
@@ -95,6 +98,3 @@
 	frag = cyan
 	old = red
 	new = blue
-
-[diff-so-fancy]
-	markEmptyLines = false

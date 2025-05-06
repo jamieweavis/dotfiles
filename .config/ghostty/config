@@ -1,0 +1,21 @@
+# Font
+font-family = JetBrains Mono
+font-size = 14
+#font-style-bold = false
+font-style-italic = false
+font-style-bold-italic = false
+
+# Window
+theme = rose-pine-moon
+window-padding-x = 8
+window-padding-y = 0,8
+window-width = 112
+window-height = 32
+macos-titlebar-proxy-icon = hidden
+
+# Cursor
+shell-integration-features = no-cursor
+cursor-style = block
+cursor-invert-fg-bg = true
+cursor-style-blink = true
+mouse-hide-while-typing = true

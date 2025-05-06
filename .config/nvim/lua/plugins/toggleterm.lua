@@ -4,6 +4,7 @@ return {
   opts = {
     direction = 'float',
     open_mapping = [[<leader>=]],
+    insert_mappings= false,
     float_opts = {
       border = 'curved',
       width = function()

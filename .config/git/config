@@ -91,10 +91,11 @@
 [color "diff-highlight"]
 	oldNormal = red
 	oldHighlight = black red
-	newNormal = blue
-	newHighlight = black blue
+	newNormal = green
+	newHighlight = black green
 
 [color "diff"]
 	frag = cyan
 	old = red
-	new = blue
+	new = green
+	whitespace = yellow reverse

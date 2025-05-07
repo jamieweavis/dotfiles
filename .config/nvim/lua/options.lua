@@ -55,4 +55,9 @@ vim.opt.sidescrolloff = 10
 -- instead raise a dialog asking if you wish to save the current file(s)
 vim.opt.confirm = true
 
+-- Sync clipboard between OS and Neovim.
+vim.schedule(function()
+  vim.opt.clipboard = 'unnamedplus'
+end)
+
 -- vim: ts=2 sts=2 sw=2 et

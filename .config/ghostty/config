@@ -1,7 +1,7 @@
 # Font
 font-family = JetBrains Mono
 font-size = 14
-#font-style-bold = false
+font-style-bold = false
 font-style-italic = false
 font-style-bold-italic = false
 

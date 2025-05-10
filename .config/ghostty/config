@@ -12,6 +12,7 @@ window-padding-y = 0,8
 window-width = 112
 window-height = 32
 macos-titlebar-proxy-icon = hidden
+confirm-close-surface = false
 
 # Cursor
 shell-integration-features = no-cursor

@@ -1,8 +1,9 @@
 [user]
 	name = Jamie
-	email = jamie.weavis@gmail.com
+	email = 8133259+jamieweavis@users.noreply.github.com
 	username = jamieweavis
 	signingkey = ~/.ssh/id_ed25519.pub
+	useConfigOnly = true
 
 [init]
 	defaultBranch = main

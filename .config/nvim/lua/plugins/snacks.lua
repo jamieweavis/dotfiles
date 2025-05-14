@@ -8,23 +8,10 @@ return {
     dashboard = {
       enabled = true,
       sections = {
-        { section = 'header' },
         { section = 'keys', padding = 1 },
-        {
-          section = 'recent_files',
-          icon = ' ',
-          title = 'Recent Files',
-          indent = 2,
-          padding = 1,
-        },
-        {
-          icon = ' ',
-          title = 'Projects',
-          section = 'projects',
-          padding = 1,
-          indent = 2,
-        },
-        { section = 'startup' },
+        { section = 'recent_files', padding = 1 },
+        { section = 'projects', padding = 1 },
+        { section = 'startup', padding = 1 },
       },
     },
     explorer = { enabled = false },

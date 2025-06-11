@@ -1,6 +1,8 @@
 # Taps
 tap "jamieweavis/tap"
+tap "nikitabobko/tap"
 tap "oven-sh/bun"
+tap "FelixKratz/formulae"
 
 # Formulae
 brew "awscli"
@@ -10,6 +12,7 @@ brew "deno"
 brew "diff-so-fancy"
 brew "eza"
 brew "fd" # for telescope.nvim
+brew "FelixKratz/formulae/sketchybar"
 brew "fzf"
 brew "gh"
 brew "git"
@@ -37,6 +40,7 @@ cask "font-sf-pro"
 cask "ghostty"
 cask "mac-mouse-fix"
 cask "mongodb-compass"
+cask "nikitabobko/tap/aerospace"
 cask "raycast"
 cask "sequel-ace"
 cask "spotify"

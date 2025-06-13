@@ -1,5 +1,4 @@
 # Folder aliases
-alias b="cd ~/Developer/brain"
 alias dl="cd ~/Downloads"
 alias dt="cd ~/Desktop"
 alias dev="cd ~/Developer"

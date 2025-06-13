@@ -5,61 +5,63 @@ PLUGIN_DIR="$CONFIG_DIR/plugins"
 sketchybar --bar position=top height=32 blur_radius=32 color=0x88000000
 
 default=(
-	padding_left=0
-	padding_right=0
-	label.font="SF Pro:SemiBold:14.0"
+	padding_left=1
+	padding_right=1
+	label.font="SF Pro:Bold:14.0"
 	label.color=0xffffffff
-	background.color=0xfffffffff
-	background.drawing=off
-	icon.padding_left=0
-	icon.padding_right=0
 	label.padding_left=7
 	label.padding_right=7
+	background.color=0xfffffffff
+	background.drawing=off
+	background.corner_radius=5 \
+	background.height=22 \
+	icon.padding_left=0
+	icon.padding_right=0
 )
 
 sketchybar --default "${default[@]}"
 
 sketchybar --add event aerospace_workspace_change
 
+sketchybar --add item workspace_handler left \
+	--subscribe workspace_handler aerospace_workspace_change \
+	--set workspace_handler script="$CONFIG_DIR/plugins/aerospace.sh" \
+	width=0
+
 sketchybar --add item space.1 left \
-	--subscribe space.1 aerospace_workspace_change \
 	--set space.1 \
-		background.corner_radius=5 \
-		background.height=22 \
 		label="Dev" \
-		click_script="aerospace workspace 1" \
-		script="$CONFIG_DIR/plugins/aerospace.sh 1"
+		click_script="aerospace workspace 1"
 
 sketchybar --add item space.2 left \
-	--subscribe space.2 aerospace_workspace_change \
 	--set space.2 \
-		background.corner_radius=5 \
-		background.height=22 \
 		label="Web" \
-		click_script="aerospace workspace 2" \
-		script="$CONFIG_DIR/plugins/aerospace.sh 2"
+		click_script="aerospace workspace 2"
 
 sketchybar --add item space.3 left \
-	--subscribe space.3 aerospace_workspace_change \
 	--set space.3 \
-		background.corner_radius=5 \
-		background.height=22 \
-		label="Music" \
-		click_script="aerospace workspace 3" \
-		script="$CONFIG_DIR/plugins/aerospace.sh 3"
-
+		label="Chat" \
+		click_script="aerospace workspace 3"
 
 sketchybar --add item space.4 left \
-	--subscribe space.4 aerospace_workspace_change \
 	--set space.4 \
-		background.corner_radius=5 \
-		background.height=22 \
 		label="Other" \
-		click_script="aerospace workspace 4" \
-		script="$CONFIG_DIR/plugins/aerospace.sh 4"
+		click_script="aerospace workspace 4"
+
+sketchybar --add item space.5 left \
+	--set space.5 \
+		label="Music" \
+		click_script="aerospace workspace 5"
 
 sketchybar --add item clock right \
+	--subscribe clock system_woke \
 	--set clock update_freq=5 script="$PLUGIN_DIR/clock.sh" \
-	--subscribe clock system_woke
+		background.drawing=on \
+		background.color=0xffffffff \
+		label.color=0xff000000 \
+		padding_left=10
+
+sketchybar --add item spotify right \
+	--set spotify update_freq=2 script="$PLUGIN_DIR/spotify.sh"
 
 sketchybar --update

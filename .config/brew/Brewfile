@@ -1,8 +1,8 @@
 # Taps
 tap "jamieweavis/tap"
-tap "nikitabobko/tap"
+tap "nikitabobko/tap" # aerospace
 tap "oven-sh/bun"
-tap "FelixKratz/formulae"
+tap "FelixKratz/formulae" # sketchybar
 
 # Formulae
 brew "awscli"
@@ -16,7 +16,6 @@ brew "FelixKratz/formulae/sketchybar"
 brew "fzf"
 brew "gh"
 brew "git"
-brew "go"
 brew "jamieweavis/tap/colstr"
 brew "jamieweavis/tap/gus"
 brew "nvim"
@@ -32,6 +31,7 @@ brew "zsh"
 # Casks
 cask "1password"
 cask "affinity-photo"
+cask "cursor"
 cask "docker"
 cask "figma"
 cask "font-jetbrains-mono"

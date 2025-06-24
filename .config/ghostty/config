@@ -6,7 +6,7 @@ font-style-italic = false
 font-style-bold-italic = false
 
 # Window
-theme = rose-pine-moon
+theme = tokyonight
 window-padding-x = 8
 window-padding-y = 0,8
 window-width = 112

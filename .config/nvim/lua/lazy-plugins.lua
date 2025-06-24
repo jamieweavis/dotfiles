@@ -8,7 +8,7 @@ require('lazy').setup({
   require 'plugins/lsp',
   require 'plugins/conform',
   require 'plugins/cmp',
-  require 'plugins/rosepine',
+  require 'plugins/tokyonight',
   require 'plugins/todo-comments',
   require 'plugins/mini',
   require 'plugins/treesitter',

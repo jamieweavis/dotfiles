@@ -6,7 +6,6 @@ tap "FelixKratz/formulae" # sketchybar
 
 # Formulae
 brew "bat"
-brew "deno"
 brew "diff-so-fancy"
 brew "eza"
 brew "fd" # for telescope.nvim
@@ -27,7 +26,7 @@ brew "zsh"
 
 # Casks
 cask "1password"
-cask "affinity-photo"
+# cask "affinity-photo"
 cask "cursor"
 cask "docker-desktop"
 cask "figma"

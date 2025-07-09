@@ -5,9 +5,7 @@ tap "oven-sh/bun"
 tap "FelixKratz/formulae" # sketchybar
 
 # Formulae
-brew "awscli"
 brew "bat"
-brew "biome"
 brew "deno"
 brew "diff-so-fancy"
 brew "eza"
@@ -17,7 +15,6 @@ brew "fzf"
 brew "gh"
 brew "git"
 brew "jamieweavis/tap/colstr"
-brew "jamieweavis/tap/gus"
 brew "nvim"
 brew "nethack"
 brew "oven-sh/bun/bun"

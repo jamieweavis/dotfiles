@@ -5,6 +5,7 @@ tap "oven-sh/bun"
 tap "FelixKratz/formulae" # sketchybar
 
 # Formulae
+brew "bash" # tokyonight tmux theme requires bash
 brew "bat"
 brew "diff-so-fancy"
 brew "eza"
@@ -26,8 +27,6 @@ brew "zsh"
 
 # Casks
 cask "1password"
-# cask "affinity-photo"
-cask "cursor"
 cask "docker-desktop"
 cask "figma"
 cask "font-jetbrains-mono"
@@ -36,9 +35,7 @@ cask "font-sf-mono"
 cask "font-sf-pro"
 cask "ghostty"
 cask "mac-mouse-fix"
-cask "mongodb-compass"
 cask "nikitabobko/tap/aerospace"
 cask "raycast"
-cask "sequel-ace"
 cask "spotify"
 cask "visual-studio-code"

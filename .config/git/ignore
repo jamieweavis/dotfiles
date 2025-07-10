@@ -6,3 +6,7 @@ node_modules/
 
 # Logs
 *.log
+
+# Claude
+**/.claude/settings.local.json
+CLAUDE.md

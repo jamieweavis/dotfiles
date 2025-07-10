@@ -20,3 +20,6 @@ cursor-style = block
 cursor-invert-fg-bg = true
 cursor-style-blink = true
 mouse-hide-while-typing = true
+
+# Enable shift+enter newline in Claude
+keybind = shift+enter=text:\n

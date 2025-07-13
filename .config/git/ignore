@@ -10,3 +10,4 @@ node_modules/
 # Claude
 **/.claude/settings.local.json
 CLAUDE.md
+AGENTS.md

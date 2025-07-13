@@ -62,6 +62,7 @@
 	c = commit --verbose
 	co = checkout
 	cm = commit --message
+	ca = commit --amend
 	d = diff
 	ds = diff --staged
 	f = fetch

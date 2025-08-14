@@ -1,8 +1,6 @@
-# Taps
+# Tap
 tap "jamieweavis/tap"
-tap "nikitabobko/tap" # aerospace
-tap "oven-sh/bun"
-tap "FelixKratz/formulae" # sketchybar
+tap "sst/tap"
 
 # Formulae
 brew "bash" # tokyonight tmux theme requires bash
@@ -10,16 +8,14 @@ brew "bat"
 brew "diff-so-fancy"
 brew "eza"
 brew "fd" # for telescope.nvim
-brew "FelixKratz/formulae/sketchybar"
 brew "fzf"
 brew "gh"
 brew "git"
 brew "jamieweavis/tap/colstr"
 brew "nvim"
-brew "nethack"
-brew "oven-sh/bun/bun"
 brew "pnpm"
 brew "ripgrep" # for telescope.nvim
+brew "sst/tap/opencode"
 brew "starship"
 brew "stow"
 brew "tmux"
@@ -27,15 +23,15 @@ brew "zsh"
 
 # Casks
 cask "1password"
+cask "cursor"
 cask "docker-desktop"
 cask "figma"
 cask "font-jetbrains-mono"
 cask "font-jetbrains-mono-nerd-font"
-cask "font-sf-mono"
-cask "font-sf-pro"
 cask "ghostty"
+cask "google-chrome"
 cask "mac-mouse-fix"
-cask "nikitabobko/tap/aerospace"
+cask "monitorcontrol"
 cask "raycast"
-cask "spotify"
+cask "superwhisper"
 cask "visual-studio-code"

@@ -6,13 +6,3 @@ node_modules/
 
 # Logs
 *.log
-
-# Claude
-**/.claude/settings.local.json
-CLAUDE.md
-
-# Opencode
-AGENTS.md
-
-# Kiro
-.kiro/

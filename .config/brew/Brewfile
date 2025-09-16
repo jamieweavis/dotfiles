@@ -1,6 +1,5 @@
 # Tap
 tap "jamieweavis/tap"
-tap "sst/tap"
 
 # Formulae
 brew "bash" # tokyonight tmux theme requires bash
@@ -15,7 +14,6 @@ brew "jamieweavis/tap/colstr"
 brew "nvim"
 brew "pnpm"
 brew "ripgrep" # for telescope.nvim
-brew "sst/tap/opencode"
 brew "starship"
 brew "stow"
 brew "tmux"
@@ -23,7 +21,6 @@ brew "zsh"
 
 # Casks
 cask "1password"
-cask "cursor"
 cask "docker-desktop"
 cask "figma"
 cask "font-jetbrains-mono"

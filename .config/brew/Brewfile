@@ -2,7 +2,6 @@
 tap "jamieweavis/tap"
 
 # Formulae
-brew "bash" # tokyonight tmux theme requires bash
 brew "bat"
 brew "diff-so-fancy"
 brew "eza"

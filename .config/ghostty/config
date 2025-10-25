@@ -6,7 +6,7 @@ font-style-italic = false
 font-style-bold-italic = false
 
 # Window
-theme = tokyonight
+theme = github dark dimmed
 window-padding-x = 8
 window-padding-y = 0,8
 window-width = 112

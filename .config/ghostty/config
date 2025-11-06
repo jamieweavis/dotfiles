@@ -23,3 +23,6 @@ mouse-hide-while-typing = true
 
 # Enable shift+enter newline in Claude
 keybind = shift+enter=text:\n
+
+# Icon
+macos-icon = custom

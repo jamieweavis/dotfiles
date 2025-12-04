@@ -161,6 +161,7 @@ return {
     local servers = {
       -- gopls = {},
       -- rust_analyzer = {},
+      bashls = {},
       marksman = {},
       ts_ls = {
         root_dir = require('lspconfig').util.root_pattern { 'package.json', 'tsconfig.json' },

@@ -1,12 +1,13 @@
 # Font
 font-family = JetBrains Mono
-font-size = 14
+font-size = 13
 font-style-bold = false
 font-style-italic = false
 font-style-bold-italic = false
 
 # Window
-theme = github dark dimmed
+theme = atom one dark
+background = #1f2329
 window-padding-x = 8
 window-padding-y = 0,8
 window-width = 112

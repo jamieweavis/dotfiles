@@ -61,8 +61,11 @@
 [alias]
 	c = commit --verbose
 	co = checkout
+	cob = checkout -b
+	coi = !git checkout $(git branch | fzf)
 	cm = commit --message
 	ca = commit --amend
+	can = commit --amend --no-edit
 	d = diff
 	ds = diff --staged
 	f = fetch
@@ -70,15 +73,17 @@
 	l = log --graph --date-order --date=short --pretty=format:'%C(auto)%h%d %C(reset)%s %C(dim white)(%an, %ar)%C(reset)'
 	p = push
 	pu = push --set-upstream
+	puf = push --set-upstream --force
 	pun = push --set-upstream --no-verify
+	punf = push --set-upstream --no-verify --force
 	s = status --short
 	sp = stash pop
+	sm = stash --message
+	sl = stash list
 	su = stash --include-untracked
-	sfp = !git stash && git fetch && git pull
-	sufp = !git stash --include-untracked && git fetch && git pull
-	sfpp = !git stash && git fetch && git pull && git stash pop
-	undo = reset --soft HEAD~1
 	b = branch
+	bd = branch -D
+	undo = reset --soft HEAD~1
 
 [color "blame"]
 	highlightRecent = black bold,1 year ago,white,1 month ago,default,7 days ago,blue

@@ -13,17 +13,6 @@ fi
 echo "● Installing Brewfile formulae & casks"
 brew bundle --file=./.config/brew/Brewfile
 
-echo "● Installing nvm"
-if [ -s "$NVM_DIR/nvm.sh" ]; then
-	source "$NVM_DIR/nvm.sh"
-	echo "v$(nvm -v) is already installed."
-else
-	curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.40.2/install.sh | bash
-fi
-
-echo "● Installing Node.js LTS"
-nvm install --lts
-
 echo "● Installing tpm"
 [[ ! -d ~/.tmux/plugins/tpm ]] && install_tpm=true
 if [ $install_tpm ]; then
@@ -34,7 +23,7 @@ fi
 echo "● Symlinking dotfiles"
 stow . --verbose 2 --adopt --target ~
 
-# (3/4) Install configured plugins
+# (3/4) Install plugins
 echo "● Installing nvim plugins"
 nvim --headless "+Lazy! sync" +qa
 

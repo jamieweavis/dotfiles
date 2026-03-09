@@ -18,10 +18,8 @@ alias cat="bat"
 # Source untracked local zsh config
 [ -f ~/.zshrc.local ] && source ~/.zshrc.local
 
-# Load nvm & default installed version of node (~0.5s)
-export NVM_DIR="$([ -z "${XDG_CONFIG_HOME-}" ] && printf %s "${HOME}/.nvm" || printf %s "${XDG_CONFIG_HOME}/nvm")"
-[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"
-[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"
+# Load fnm (Fast Node Manager) for managing Node.js versions
+eval "$(fnm env --use-on-cd --shell zsh)"
 
 # Enable history
 HISTFILE=~/.zsh_history
@@ -37,7 +35,7 @@ zstyle ':completion:*' menu select
 autoload -Uz compinit && compinit
 zstyle ':completion:*' matcher-list 'm:{a-z}={A-Za-z}'
 
-# Homebrew (~.03s)
+# Homebrew
 export PATH="/opt/homebrew/sbin:$PATH"
 eval $(/opt/homebrew/bin/brew shellenv)
 

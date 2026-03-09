@@ -2,19 +2,20 @@
 tap "jamieweavis/tap"
 
 # Formulae
-brew "bat"
-brew "diff-so-fancy"
-brew "eza"
-brew "fd" # for telescope.nvim
-brew "fzf"
-brew "gh"
+brew "bat"                    # cat replacement with syntax highlighting and Git integration
+brew "diff-so-fancy"          # for better git diffs in the terminal
+brew "eza"                    # ls replacement with syntax highlighting (active fork of exa)
+brew "fd"                     # for telescope.nvim
+brew "fnm"                    # Fast Node Manager for managing Node.js versions
+brew "fzf"                    # for telescope.nvim
+brew "gh"                     # GitHub CLI tool
 brew "git"
 brew "jamieweavis/tap/colstr"
 brew "nvim"
 brew "pnpm"
-brew "ripgrep" # for telescope.nvim
-brew "starship"
-brew "stow"
+brew "ripgrep"                # for telescope.nvim
+brew "starship"               # terminal prompt
+brew "stow"                   # for symlinking dotfiles
 brew "tmux"
 brew "zsh"
 

@@ -49,5 +49,8 @@ export EDITOR="$VISUAL"
 # Set up fzf key bindings and fuzzy completion
 source <(fzf --zsh)
 
+# Load VS Code's shell integration for the integrated terminal
+[[ "$TERM_PROGRAM" == "vscode" ]] && . "$(code --locate-shell-integration-path zsh)"
+
 # Starship prompt (https://starship.rs/)
 eval "$(starship init zsh)"

@@ -6,3 +6,6 @@ node_modules/
 
 # Logs
 *.log
+
+# Claude
+settings.local.json

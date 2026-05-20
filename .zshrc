@@ -6,14 +6,15 @@ alias icl="cd ~/Library/Mobile\ Documents/com~apple~CloudDocs/"
 alias dots="cd ~/Developer/dotfiles"
 
 # Command aliases
-alias c="clear"
+alias c="claude"
+alias g="git"
 alias v="nvim"
-alias f="fzf"
-alias vf='v $(f)'
+alias p="pnpm"
 alias t="tmux new -A"
 alias ls="eza"
-alias la="ls -la"
+alias la="eza -la"
 alias cat="bat"
+alias glow="glow -w 0"
 
 # Source untracked local zsh config
 [ -f ~/.zshrc.local ] && source ~/.zshrc.local
@@ -54,3 +55,4 @@ source <(fzf --zsh)
 
 # Starship prompt (https://starship.rs/)
 eval "$(starship init zsh)"
+

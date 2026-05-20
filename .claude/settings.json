@@ -19,14 +19,39 @@
       "Write(.env*)"
     ]
   },
-  "prefersReducedMotion": true,
-  "skipAutoPermissionPrompt": true,
-  "spinnerTipsEnabled": false,
+  "model": "opus[1m]",
   "statusLine": {
-    "command": "sh ~/.claude/statusline-command.sh",
-    "type": "command"
+    "type": "command",
+    "command": "sh ~/.claude/statusline-command.sh"
   },
-  "terminalProgressBarEnabled": false,
+  "enabledPlugins": {
+    "context-mode@context-mode": true
+  },
+  "extraKnownMarketplaces": {
+    "context-mode": {
+      "source": {
+        "source": "github",
+        "repo": "mksglu/context-mode"
+      }
+    }
+  },
+  "spinnerTipsEnabled": false,
+  "effortLevel": "high",
+  "prefersReducedMotion": true,
   "theme": "dark-ansi",
-  "useAutoModeDuringPlan": false
+  "terminalProgressBarEnabled": false,
+  "skipAutoPermissionPrompt": true,
+  "useAutoModeDuringPlan": false,
+  "hooks": {
+    "SessionStart": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "\"~/.claude/hooks/context-mode-cache-heal.mjs\""
+          }
+        ]
+      }
+    ]
+  }
 }

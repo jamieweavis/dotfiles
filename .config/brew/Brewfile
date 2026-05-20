@@ -10,6 +10,7 @@ brew "fnm"                    # Fast Node Manager for managing Node.js versions
 brew "fzf"                    # for telescope.nvim
 brew "gh"                     # GitHub CLI tool
 brew "git"
+brew "glow"                   # markdown reader for the terminal
 brew "jamieweavis/tap/colstr"
 brew "nvim"
 brew "pnpm"

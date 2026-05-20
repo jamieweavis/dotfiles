@@ -1,6 +1,6 @@
 # Font
 font-family = JetBrains Mono
-font-size = 13
+font-size = 14
 font-style-bold = false
 font-style-italic = false
 font-style-bold-italic = false
@@ -12,8 +12,11 @@ window-padding-x = 8
 window-padding-y = 0,8
 window-width = 112
 window-height = 32
+window-title-font-family = JetBrains Mono
 macos-titlebar-proxy-icon = hidden
+macos-window-buttons = hidden
 confirm-close-surface = false
+unfocused-split-opacity = 0.8
 
 # Cursor
 shell-integration-features = no-cursor
@@ -21,6 +24,7 @@ cursor-style = block
 cursor-invert-fg-bg = true
 cursor-style-blink = true
 mouse-hide-while-typing = true
+focus-follows-mouse = true
 
 # Enable shift+enter newline in Claude
 keybind = shift+enter=text:\n

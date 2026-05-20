@@ -7,6 +7,7 @@ $git_commit\
 $git_state\
 $git_metrics\
 $git_status\
+$nodejs\
 $character"""
 
 [time]
@@ -14,9 +15,9 @@ disabled = false
 format = "[$time]($style) "
 
 [character]
-success_symbol = "[●](bold green)"
-error_symbol = "[⭘](bold red)"
-vimcmd_symbol = "[●](bold green)"
+success_symbol = "[\\$](bold green)"
+error_symbol = "[\\$](bold red)"
+vimcmd_symbol = "[\\$](bold green)"
 
 [directory]
 read_only = " ro"

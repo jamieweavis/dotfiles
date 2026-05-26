@@ -20,6 +20,18 @@
     ]
   },
   "model": "opus[1m]",
+  "hooks": {
+    "SessionStart": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "~/.claude/hooks/context-mode-cache-heal.mjs"
+          }
+        ]
+      }
+    ]
+  },
   "statusLine": {
     "type": "command",
     "command": "sh ~/.claude/statusline-command.sh"
@@ -42,16 +54,5 @@
   "terminalProgressBarEnabled": false,
   "skipAutoPermissionPrompt": true,
   "useAutoModeDuringPlan": false,
-  "hooks": {
-    "SessionStart": [
-      {
-        "hooks": [
-          {
-            "type": "command",
-            "command": "\"~/.claude/hooks/context-mode-cache-heal.mjs\""
-          }
-        ]
-      }
-    ]
-  }
+  "tui": "fullscreen"
 }

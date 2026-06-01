@@ -1,8 +1,10 @@
-# Tap
+# Taps
 tap "jamieweavis/tap"
+tap "oven-sh/bun"
 
 # Formulae
 brew "bat"                    # cat replacement with syntax highlighting and Git integration
+brew "oven-sh/bun/bun"        # fast JavaScript runtime with bundler and package manager
 brew "diff-so-fancy"          # for better git diffs in the terminal
 brew "eza"                    # ls replacement with syntax highlighting (active fork of exa)
 brew "fd"                     # for telescope.nvim

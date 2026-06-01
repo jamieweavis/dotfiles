@@ -20,6 +20,7 @@ brew "ripgrep"                # for telescope.nvim
 brew "starship"               # terminal prompt
 brew "stow"                   # for symlinking dotfiles
 brew "tmux"
+brew "tree-sitter-cli"        # for nvim-treesitter
 brew "zsh"
 
 # Casks

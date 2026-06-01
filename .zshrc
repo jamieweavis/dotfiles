@@ -50,6 +50,10 @@ source <(fzf --zsh)
 # Load fnm (fast node manager)
 eval "$(fnm env --use-on-cd --shell zsh)"
 
+# Load bun (javascript runtime)
+export BUN_INSTALL="$HOME/.bun"
+export PATH="$BUN_INSTALL/bin:$PATH"
+
 # Initialize starship (prompt)
 eval "$(starship init zsh)"
 

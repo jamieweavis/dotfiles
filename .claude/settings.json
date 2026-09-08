@@ -1,5 +1,6 @@
 {
   "permissions": {
+  "defaultMode": "manual",
     "allow": [
       "Bash(pnpm check:*)",
       "Bash(pnpm check)",
@@ -15,8 +16,7 @@
     ],
     "deny": [
       "Edit(.env*)",
-      "Read(.env*)",
-      "Write(.env*)"
+      "Read(.env*)"
     ]
   },
   "model": "opus[1m]",
@@ -49,10 +49,11 @@
   },
   "spinnerTipsEnabled": false,
   "effortLevel": "high",
+  "tui": "fullscreen",
   "prefersReducedMotion": true,
   "theme": "dark-ansi",
+  "switchModelsOnFlag": true,
   "terminalProgressBarEnabled": false,
   "skipAutoPermissionPrompt": true,
-  "useAutoModeDuringPlan": false,
-  "tui": "fullscreen"
+  "useAutoModeDuringPlan": false
 }

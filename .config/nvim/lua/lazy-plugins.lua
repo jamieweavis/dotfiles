@@ -8,7 +8,6 @@ require('lazy').setup({
   require 'plugins/lsp',
   require 'plugins/conform',
   require 'plugins/cmp',
-  require 'plugins/onedark-theme',
   require 'plugins/todo-comments',
   require 'plugins/mini',
   require 'plugins/treesitter',

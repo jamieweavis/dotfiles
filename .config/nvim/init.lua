@@ -4,6 +4,9 @@ vim.g.have_nerd_font = true
 
 require 'options'
 require 'keymaps'
+
+vim.cmd.colorscheme 'vscode-dark-2026'
+
 require 'lazy-bootstrap'
 require 'lazy-plugins'
 

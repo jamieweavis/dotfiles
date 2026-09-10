@@ -28,12 +28,13 @@ setopt appendhistory
 # Enable cd without cd
 setopt AUTO_CD
 
-# Enable tab completion visual selection
+# Enable tab completion
 autoload -Uz compinit && compinit
+
+# Enable tab completion visual selection
 zstyle ':completion:*' menu select
 
 # Enable case insensitive tab completion
-autoload -Uz compinit && compinit
 zstyle ':completion:*' matcher-list 'm:{a-z}={A-Za-z}'
 
 # Set default editor to neovim
@@ -56,4 +57,3 @@ export PATH="$BUN_INSTALL/bin:$PATH"
 
 # Initialize starship (prompt)
 eval "$(starship init zsh)"
-

@@ -15,7 +15,7 @@ brew bundle --file=./.config/homebrew/Brewfile
 
 # (2/4) Symlink dotfiles
 echo "● Symlinking dotfiles"
-stow . --verbose 2 --adopt --target ~
+stow . --verbose 2 --target ~
 
 # (3/4) Install plugins
 echo "● Installing nvim plugins"

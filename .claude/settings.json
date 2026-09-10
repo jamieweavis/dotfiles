@@ -1,6 +1,6 @@
 {
   "permissions": {
-  "defaultMode": "manual",
+    "defaultMode": "manual",
     "allow": [
       "Bash(pnpm check:*)",
       "Bash(pnpm check)",
@@ -20,32 +20,9 @@
     ]
   },
   "model": "opus[1m]",
-  "hooks": {
-    "SessionStart": [
-      {
-        "hooks": [
-          {
-            "type": "command",
-            "command": "~/.claude/hooks/context-mode-cache-heal.mjs"
-          }
-        ]
-      }
-    ]
-  },
   "statusLine": {
     "type": "command",
     "command": "sh ~/.claude/statusline-command.sh"
-  },
-  "enabledPlugins": {
-    "context-mode@context-mode": true
-  },
-  "extraKnownMarketplaces": {
-    "context-mode": {
-      "source": {
-        "source": "github",
-        "repo": "mksglu/context-mode"
-      }
-    }
   },
   "spinnerTipsEnabled": false,
   "effortLevel": "high",

@@ -19,7 +19,7 @@ stow . --verbose 2 --target ~
 
 # (3/4) Install plugins
 echo "● Installing nvim plugins"
-nvim --headless "+Lazy! sync" +qa
+nvim --headless "+Lazy! restore" +qa
 
 # (4/4) Finally source ~/.zshrc
 echo "\n● Installation complete - sourcing ~/.zshrc 🚀"

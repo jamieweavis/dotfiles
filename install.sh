@@ -11,7 +11,7 @@ if [ ! "$(command -v brew)" ]; then
 fi
 
 echo "● Installing Brewfile formulae & casks"
-brew bundle --file=./.config/brew/Brewfile
+brew bundle --file=./.config/homebrew/Brewfile
 
 # (2/4) Symlink dotfiles
 echo "● Symlinking dotfiles"

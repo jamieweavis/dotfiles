@@ -3,7 +3,9 @@ tap "jamieweavis/tap"
 tap "oven-sh/bun"
 
 # Formulae
+brew "bash-language-server"   # LSP for bash/sh — see .config/nvim/lsp/bashls.lua
 brew "bat"                    # cat replacement with syntax highlighting and Git integration
+brew "biome"                  # JS/TS formatter & linter — for conform.nvim and nvim-lint
 brew "oven-sh/bun/bun"        # fast JavaScript runtime with bundler and package manager
 brew "diff-so-fancy"          # for better git diffs in the terminal
 brew "eza"                    # ls replacement with syntax highlighting (active fork of exa)
@@ -14,13 +16,17 @@ brew "gh"                     # GitHub CLI tool
 brew "git"
 brew "glow"                   # markdown reader for the terminal
 brew "jamieweavis/tap/colstr"
+brew "lua-language-server"    # LSP for lua — see .config/nvim/lsp/lua_ls.lua
+brew "marksman"               # LSP for markdown — see .config/nvim/lsp/marksman.lua
 brew "nvim"
 brew "pnpm"
 brew "ripgrep"                # for telescope.nvim
 brew "starship"               # terminal prompt
 brew "stow"                   # for symlinking dotfiles
+brew "stylua"                 # lua formatter — for conform.nvim
 brew "tmux"
 brew "tree-sitter-cli"        # for nvim-treesitter
+brew "typescript-language-server" # LSP for js/ts — see .config/nvim/lsp/ts_ls.lua
 brew "zsh"
 
 # Casks

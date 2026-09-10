@@ -21,6 +21,9 @@ stow . --verbose 2 --target ~
 echo "● Installing nvim plugins"
 nvim --headless "+Lazy! restore" +qa
 
+echo "● Building bat theme cache"
+bat cache --build
+
 # (4/4) Finally source ~/.zshrc
 echo "\n● Installation complete - sourcing ~/.zshrc 🚀"
 source ~/.zshrc

@@ -31,7 +31,6 @@ return {
           'node_modules/',
           'vendor/',
           'target/',
-          '.config/nvim/pack/',
         },
       },
       pickers = {

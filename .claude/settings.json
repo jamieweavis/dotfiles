@@ -1,6 +1,5 @@
 {
   "permissions": {
-    "defaultMode": "manual",
     "allow": [
       "Bash(pnpm check:*)",
       "Bash(pnpm check)",
@@ -17,13 +16,16 @@
     "deny": [
       "Edit(.env*)",
       "Read(.env*)"
-    ]
+    ],
+    "defaultMode": "default"
   },
-  "model": "opus[1m]",
+  "model": "opus",
   "statusLine": {
     "type": "command",
     "command": "sh ~/.claude/statusline-command.sh"
   },
+  "enabledPlugins": {},
+  "extraKnownMarketplaces": {},
   "spinnerTipsEnabled": false,
   "effortLevel": "high",
   "tui": "fullscreen",

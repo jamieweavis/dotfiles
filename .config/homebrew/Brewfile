@@ -6,7 +6,6 @@ tap "oven-sh/bun"
 brew "bash-language-server"   # LSP for bash/sh — see .config/nvim/lsp/bashls.lua
 brew "bat"                    # cat replacement with syntax highlighting and Git integration
 brew "biome"                  # JS/TS formatter & linter — for conform.nvim and nvim-lint
-brew "oven-sh/bun/bun"        # fast JavaScript runtime with bundler and package manager
 brew "diff-so-fancy"          # for better git diffs in the terminal
 brew "eza"                    # ls replacement with syntax highlighting (active fork of exa)
 brew "fd"                     # for telescope.nvim
@@ -19,6 +18,7 @@ brew "jamieweavis/tap/colstr"
 brew "lua-language-server"    # LSP for lua — see .config/nvim/lsp/lua_ls.lua
 brew "marksman"               # LSP for markdown — see .config/nvim/lsp/marksman.lua
 brew "nvim"
+brew "oven-sh/bun/bun"        # fast JavaScript runtime with bundler and package manager
 brew "pnpm"
 brew "ripgrep"                # for telescope.nvim
 brew "starship"               # terminal prompt
@@ -33,16 +33,19 @@ brew "zsh"
 cask "1password"
 cask "claude-code@latest"
 cask "docker-desktop"
-cask "figma"
+cask "figcraft"
+cask "filmcraft"
 cask "firefox"
-cask "fluidvoice"
 cask "font-jetbrains-mono"
 cask "font-jetbrains-mono-nerd-font"
 cask "ghostty"
 cask "mac-mouse-fix"
 cask "monitorcontrol"
+cask "photocraft"
 cask "protonvpn"
+cask "soundcraft"
 cask "spotify"
 cask "raycast"
 cask "tableplus"
+cask "vectorcraft"
 cask "visual-studio-code"

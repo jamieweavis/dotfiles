@@ -29,7 +29,6 @@ return {
       end
     end,
     formatters_by_ft = {
-      lua = { 'stylua' },
       javascript = { 'biome', 'biome-check', 'biome-organize-imports'},
       typescript = { 'biome', 'biome-check', 'biome-organize-imports'},
     },

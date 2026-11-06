@@ -143,7 +143,6 @@ return {
     -- drop a definition in .config/nvim/lsp/, add its binary to the Brewfile, and
     -- list it here.
     vim.lsp.enable {
-      'bashls',
       'lua_ls',
       'marksman',
       'ts_ls',

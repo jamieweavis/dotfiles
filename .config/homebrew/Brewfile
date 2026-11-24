@@ -3,29 +3,29 @@ tap "jamieweavis/tap"
 tap "oven-sh/bun"
 
 # Formulae
-brew "bat"                    # cat replacement with syntax highlighting and Git integration
-brew "biome"                  # JS/TS formatter & linter — for conform.nvim and nvim-lint
-brew "diff-so-fancy"          # for better git diffs in the terminal
-brew "eza"                    # ls replacement with syntax highlighting (active fork of exa)
-brew "fd"                     # for telescope.nvim
-brew "fnm"                    # Fast Node Manager for managing Node.js versions
-brew "fzf"                    # for telescope.nvim
-brew "gh"                     # GitHub CLI tool
-brew "git"
-brew "glow"                   # markdown reader for the terminal
-brew "jamieweavis/tap/colstr"
-brew "lua-language-server"    # LSP for lua — see .config/nvim/lsp/lua_ls.lua
-brew "marksman"               # LSP for markdown — see .config/nvim/lsp/marksman.lua
-brew "nvim"
-brew "oven-sh/bun/bun"        # fast JavaScript runtime with bundler and package manager
-brew "pnpm"
-brew "ripgrep"                # for telescope.nvim
-brew "starship"               # terminal prompt
-brew "stow"                   # for symlinking dotfiles
-brew "tmux"
-brew "tree-sitter-cli"        # for nvim-treesitter
+brew "bat"                        # cat replacement with syntax highlighting and Git integration
+brew "biome"                      # JS/TS formatter & linter — for conform.nvim and nvim-lint
+brew "diff-so-fancy"              # for better git diffs in the terminal
+brew "eza"                        # ls replacement with syntax highlighting (active fork of exa)
+brew "fd"                         # for telescope.nvim
+brew "fnm"                        # Fast Node Manager for managing Node.js versions
+brew "fzf"                        # for telescope.nvim
+brew "gh"                         # GitHub CLI tool
+brew "git"                        # latest Git version
+brew "jamieweavis/tap/colstr"     # string colorizer for the terminal
+brew "lua-language-server"        # LSP for lua — see .config/nvim/lsp/lua_ls.lua
+brew "marksman"                   # LSP for markdown — see .config/nvim/lsp/marksman.lua
+brew "nvim"                       # nvim btw
+brew "oven-sh/bun/bun"            # fast JavaScript runtime with bundler and package manager
+brew "pnpm"                       # performant Node.js package manager
+brew "ripgrep"                    # for telescope.nvim
+brew "rustup"                     # Rust toolchain installer and version manager
+brew "starship"                   # terminal prompt
+brew "stow"                       # for symlinking dotfiles
+brew "tmux"                       # terminal multiplexer
+brew "tree-sitter-cli"            # for nvim-treesitter
 brew "typescript-language-server" # LSP for js/ts — see .config/nvim/lsp/ts_ls.lua
-brew "zsh"
+brew "zsh"                        # latest zsh shell version
 
 # Casks
 cask "1password"
@@ -34,16 +34,12 @@ cask "docker-desktop"
 cask "figcraft"
 cask "filmcraft"
 cask "firefox"
-cask "font-jetbrains-mono"
 cask "font-jetbrains-mono-nerd-font"
 cask "ghostty"
-cask "mac-mouse-fix"
-cask "monitorcontrol"
+cask "handy"
 cask "photocraft"
 cask "protonvpn"
-cask "soundcraft"
 cask "spotify"
-cask "raycast"
 cask "tableplus"
 cask "vectorcraft"
 cask "visual-studio-code"

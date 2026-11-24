@@ -6,3 +6,5 @@ node_modules/
 
 # Claude
 settings.local.json
+
+**/.claude/settings.local.json

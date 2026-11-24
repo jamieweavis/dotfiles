@@ -56,5 +56,9 @@ eval "$(fnm env --use-on-cd --shell zsh)"
 export BUN_INSTALL="$HOME/.bun"
 export PATH="$BUN_INSTALL/bin:$PATH"
 
+# Load rustup (rust manager)
+export PATH=/opt/homebrew/opt/rustup/bin:$PATH
+export PATH="$(dirname $(rustup which cargo)):$PATH"
+
 # Initialize starship (prompt)
 eval "$(starship init zsh)"

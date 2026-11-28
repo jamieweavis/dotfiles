@@ -29,6 +29,9 @@ setopt appendhistory
 # Enable cd without cd
 setopt AUTO_CD
 
+# Add docker completions (must come before compinit)
+fpath=(/Users/jamie/.docker/completions $fpath)
+
 # Enable tab completion
 autoload -Uz compinit && compinit
 

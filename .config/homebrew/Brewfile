@@ -20,7 +20,6 @@ brew "oven-sh/bun/bun"            # fast JavaScript runtime with bundler and pac
 brew "pnpm"                       # performant Node.js package manager
 brew "ripgrep"                    # for telescope.nvim
 brew "rustup"                     # Rust toolchain installer and version manager
-brew "starship"                   # terminal prompt
 brew "stow"                       # for symlinking dotfiles
 brew "tmux"                       # terminal multiplexer
 brew "tree-sitter-cli"            # for nvim-treesitter
